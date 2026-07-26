@@ -228,16 +228,12 @@ export default function Home() {
         className="px-6 py-24 md:px-12 lg:px-20 lg:py-32"
       >
         <div className="mx-auto grid max-w-7xl overflow-hidden rounded-[34px] bg-white shadow-[0_24px_70px_rgba(42,30,19,.14)] lg:grid-cols-2">
-          <div className="flex min-h-[440px] items-center justify-center bg-[#ef8b43] p-12 text-center">
-            <div>
-              <div className="mx-auto mb-8 h-20 w-20 rounded-t-full border-2 border-white/80 border-b-0" />
-              <p className="text-5xl font-light tracking-[0.25em] text-white">
-                LOKAHI
-              </p>
-              <p className="mt-5 text-sm tracking-[0.35em] text-white/75">
-                EVENTI
-              </p>
-            </div>
+          <div className="relative min-h-[440px] overflow-hidden bg-[#ef8b43]">
+            <img
+              src="/logo-lokahi.png"
+              alt="Logo LOKAHI"
+              className="absolute inset-0 h-full w-full object-cover object-center"
+            />
           </div>
 
           <div className="flex flex-col justify-center p-9 md:p-16">
