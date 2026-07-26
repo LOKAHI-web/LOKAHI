@@ -337,7 +337,7 @@ export default function Home() {
 
         <div className="flex flex-wrap gap-6 md:justify-end">
           <a href="#viaggi">Viaggi</a>
-          <a href="#chi-siamo">Chi siamo</a>
+          <a href="/chi-siamo">Chi siamo</a>
           <a href="#faq">FAQ</a>
           <a href="#contatti">Contatti</a>
         </div>
