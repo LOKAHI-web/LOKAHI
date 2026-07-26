@@ -41,9 +41,9 @@ export default function ChiSiamo() {
                     <Link
                         href="/"
                         className="text-sm font-bold tracking-[0.28em]"
-                        aria-label="Torna alla home di LOKAHI"
+                        aria-label="Torna alla home di LOKΛHI"
                     >
-                        LOKAHI
+                        LOKΛHI
                     </Link>
 
                     <Link
