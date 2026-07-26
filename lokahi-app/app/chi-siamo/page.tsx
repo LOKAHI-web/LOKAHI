@@ -35,7 +35,7 @@ const values = [
 
 export default function ChiSiamo() {
     return (
-        <main className="min-h-screen bg-[#fffaf5] text-[#1e1b18]">
+        <main className="min-h-screen bg-[#fffaf5] text-[#402216]">
             <header className="sticky top-0 z-50 border-b border-black/10 bg-[#fffaf5]/90 px-6 py-4 backdrop-blur-xl md:px-12 lg:px-20">
                 <div className="mx-auto flex max-w-7xl items-center justify-between">
                     <Link
@@ -122,7 +122,7 @@ export default function ChiSiamo() {
                 </div>
             </section>
 
-            <section className="bg-[#1e1b18] px-6 py-24 text-white md:px-12 lg:px-20 lg:py-32">
+            <section className="bg-[#402216] px-6 py-24 text-white md:px-12 lg:px-20 lg:py-32">
                 <div className="mx-auto grid max-w-7xl gap-14 lg:grid-cols-2">
                     <div>
                         <p className="text-xs font-bold uppercase tracking-[0.2em] text-orange-300">
@@ -235,7 +235,7 @@ export default function ChiSiamo() {
                 </Link>
             </section>
 
-            <footer className="flex flex-col gap-5 bg-[#1e1b18] px-6 py-12 text-white/65 md:flex-row md:items-center md:justify-between md:px-12 lg:px-20">
+            <footer className="flex flex-col gap-5 bg-[#402216] px-6 py-12 text-white/65 md:flex-row md:items-center md:justify-between md:px-12 lg:px-20">
                 <p className="font-bold tracking-[0.25em] text-white">LOKAHI</p>
                 <p className="text-sm">© 2026 LOKAHI · Tutti i diritti riservati</p>
             </footer>
