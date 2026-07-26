@@ -143,7 +143,7 @@ export default function ChiSiamo() {
                         </p>
 
                         <p>
-                            Attraverso viaggi ed esperienze di gruppo dedicati a donne Queer
+                            Attraverso viaggi ed esperienze di gruppo dedicati a donne Queer. 
                             LOKAHI crea occasioni per incontrarsi, confrontarsi e vivere liberamente il proprio orientamento
                             sessuale.
                         </p>
@@ -219,13 +219,8 @@ export default function ChiSiamo() {
                 </p>
 
                 <h2 className="mt-5 max-w-5xl text-5xl font-bold leading-[0.98] tracking-[-0.055em] md:text-7xl">
-                    Unità, armonia e connessione.
+                    Equilibrio tra corpo, mente e spiritualità
                 </h2>
-
-                <p className="mt-7 max-w-3xl text-lg leading-8">
-                    In hawaiano, Lōkahi significa unità, accordo e armonia. Per noi
-                    rappresenta anche l’equilibrio tra corpo, mente e spiritualità.
-                </p>
 
                 <p className="mt-5 max-w-3xl text-lg leading-8">
                     È l’incontro tra persone diverse che si ascoltano, si sostengono
