@@ -66,7 +66,7 @@ export default function ChiSiamo() {
                     </h1>
 
                     <p className="mt-8 max-w-3xl text-lg leading-8 text-[#6d6964] md:text-xl">
-                        LOKAHI nasce dalla storia di Miriam e dal desiderio di offrire
+                        LOKΛHI nasce dalla storia di Miriam e dal desiderio di offrire
                         alle donne queer uno spazio sicuro in cui incontrarsi, raccontarsi
                         ed essere finalmente sé stesse.
                     </p>
@@ -84,7 +84,7 @@ export default function ChiSiamo() {
                         <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent p-8 pt-24 text-white">
                             <p className="text-3xl font-bold">Miriam</p>
                             <p className="mt-2 text-sm uppercase tracking-[0.25em] text-white/80">
-                                Fondatrice di LOKAHI
+                                Fondatrice di LOKΛHI
                             </p>
                         </div>
                     </div>
@@ -126,7 +126,7 @@ export default function ChiSiamo() {
                 <div className="mx-auto grid max-w-7xl gap-14 lg:grid-cols-2">
                     <div>
                         <p className="text-xs font-bold uppercase tracking-[0.2em] text-orange-300">
-                            Perché nasce LOKAHI
+                            Perché nasce LOKΛHI
                         </p>
 
                         <h2 className="mt-5 text-5xl font-bold leading-[0.98] tracking-[-0.055em] md:text-7xl">
@@ -136,14 +136,14 @@ export default function ChiSiamo() {
 
                     <div className="space-y-6 text-lg leading-9 text-white/65">
                         <p>
-                            LOKAHI nasce dal desiderio di offrire ad altre donne ciò che è
+                            LOKΛHI nasce dal desiderio di offrire ad altre donne ciò che è
                             mancato a Miriam durante il suo percorso: un punto di riferimento,
                             una comunità e uno spazio libero dal giudizio.
                         </p>
 
                         <p>
                             Attraverso viaggi ed esperienze di gruppo dedicati a donne Queer.
-                            LOKAHI crea occasioni per incontrarsi, confrontarsi e vivere liberamente il proprio orientamento
+                            LOKΛHI crea occasioni per incontrarsi, confrontarsi e vivere liberamente il proprio orientamento
                             sessuale.
                         </p>
 
@@ -169,7 +169,7 @@ export default function ChiSiamo() {
 
                     <div className="mt-12 grid gap-6 md:grid-cols-2">
                         <p className="rounded-[28px] bg-white p-8 text-lg leading-8 text-[#6d6964] shadow-[0_20px_60px_rgba(42,30,19,.10)]">
-                            LOKAHI vuole essere un luogo sicuro in cui fare domande,
+                            LOKΛHI vuole essere un luogo sicuro in cui fare domande,
                             raccontarsi, imparare, ascoltare ed essere ascoltate. Uno spazio
                             dove non sia necessario nascondersi o giustificarsi.
                         </p>
@@ -214,7 +214,7 @@ export default function ChiSiamo() {
 
             <section className="m-3 rounded-[34px] bg-[#ef8b43] px-7 py-20 md:m-6 md:px-14 lg:px-20 lg:py-24">
                 <p className="text-xs font-bold uppercase tracking-[0.2em]">
-                    Cosa significa la parola LOKAHI
+                    Cosa significa la parola LOKΛHI
                 </p>
 
                 <h2 className="mt-5 max-w-5xl text-5xl font-bold leading-[0.98] tracking-[-0.055em] md:text-7xl">
