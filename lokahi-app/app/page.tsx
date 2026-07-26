@@ -70,7 +70,7 @@ export default function Home() {
           <a className="transition hover:text-orange-300" href="#esperienza">
             L’esperienza
           </a>
-          <a className="transition hover:text-orange-300" href="#chi-siamo">
+          <a className="transition hover:text-orange-300" href="/chi-siamo">
             Chi siamo
           </a>
           <a className="transition hover:text-orange-300" href="#faq">
@@ -125,7 +125,7 @@ export default function Home() {
             </a>
 
             <a
-              href="#chi-siamo"
+              href="/chi-siamo"
               className="rounded-full border border-white/40 px-7 py-4 text-center font-semibold text-white transition hover:bg-white hover:text-black"
             >
               Conosci LOKAHI
