@@ -53,7 +53,7 @@ const values = [
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#fffaf5] text-[#1e1b18]">
+    <main className="min-h-screen bg-[#fffaf5] text-[#402216]">
       <header className="fixed left-1/2 top-4 z-50 flex w-[calc(100%-24px)] max-w-6xl -translate-x-1/2 items-center justify-between rounded-full border border-white/20 bg-black/35 px-5 py-3 text-white shadow-xl backdrop-blur-xl">
         <a
           href="#home"
@@ -78,7 +78,7 @@ export default function Home() {
           </a>
           <a
             href="#contatti"
-            className="rounded-full bg-[#ef8b43] px-5 py-2.5 font-semibold text-[#1e1b18] transition hover:bg-[#ff9c55]"
+            className="rounded-full bg-[#ef8b43] px-5 py-2.5 font-semibold text-[#402216] transition hover:bg-[#ff9c55]"
           >
             Richiedi informazioni
           </a>
@@ -86,7 +86,7 @@ export default function Home() {
 
         <a
           href="#viaggi"
-          className="rounded-full bg-[#ef8b43] px-4 py-2 text-xs font-semibold text-[#1e1b18] md:hidden"
+          className="rounded-full bg-[#ef8b43] px-4 py-2 text-xs font-semibold text-[#402216] md:hidden"
         >
           Viaggi
         </a>
@@ -119,7 +119,7 @@ export default function Home() {
           <div className="mt-9 flex flex-col gap-3 sm:flex-row">
             <a
               href="#viaggi"
-              className="rounded-full bg-[#ef8b43] px-7 py-4 text-center font-bold text-[#1e1b18] transition hover:-translate-y-0.5 hover:bg-[#ff9c55]"
+              className="rounded-full bg-[#ef8b43] px-7 py-4 text-center font-bold text-[#402216] transition hover:-translate-y-0.5 hover:bg-[#ff9c55]"
             >
               Scopri le partenze
             </a>
@@ -191,7 +191,7 @@ export default function Home() {
 
       <section
         id="esperienza"
-        className="grid gap-16 bg-[#1e1b18] px-6 py-24 text-white md:px-12 lg:grid-cols-[.85fr_1.15fr] lg:px-20 lg:py-32"
+        className="grid gap-16 bg-[#402216] px-6 py-24 text-white md:px-12 lg:grid-cols-[.85fr_1.15fr] lg:px-20 lg:py-32"
       >
         <div className="max-w-xl">
           <p className="mb-5 text-xs font-bold uppercase tracking-[0.2em] text-orange-300">
@@ -367,13 +367,13 @@ export default function Home() {
 
         <a
           href="mailto:lokahi.form@gmail.com"
-          className="w-full rounded-full bg-white px-8 py-4 text-center font-bold text-[#1e1b18] transition hover:-translate-y-0.5 lg:w-auto"
+          className="w-full rounded-full bg-white px-8 py-4 text-center font-bold text-[#402216] transition hover:-translate-y-0.5 lg:w-auto"
         >
           Scrivici
         </a>
       </section>
 
-      <footer className="grid gap-10 bg-[#1e1b18] px-6 pb-8 pt-20 text-white/65 md:grid-cols-2 md:px-12 lg:px-20">
+      <footer className="grid gap-10 bg-[#402216] px-6 pb-8 pt-20 text-white/65 md:grid-cols-2 md:px-12 lg:px-20">
         <div>
           <p className="font-bold tracking-[0.25em] text-white">LOKAHI</p>
           <p className="mt-3">Viaggi queer. Connessioni autentiche.</p>
