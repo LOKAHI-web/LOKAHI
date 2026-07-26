@@ -106,31 +106,29 @@ export default function Home() {
           </p>
 
           <h1 className="max-w-5xl text-6xl font-bold leading-[0.91] tracking-[-0.06em] sm:text-7xl lg:text-[108px]">
-            Parti per il mondo.
+            Parti con sconosciute.
             <br />
-            Trova il tuo spazio.
-          </h1>
+            Torni con amiche queer.
 
-          <p className="mt-7 max-w-2xl text-base leading-8 text-white/80 md:text-lg">
-            Esperienze curate, piccoli gruppi e connessioni autentiche. LOKΛHI
-            crea viaggi accoglienti in cui sentirsi libere di essere sé stesse.
-          </p>
+            <p className="mt-7 max-w-2xl text-base leading-8 text-white/80 md:text-lg">
+              Nuovi luoghi, nuovi legami e la libertà di essere te stessa.
+            </p>
 
-          <div className="mt-9 flex flex-col gap-3 sm:flex-row">
-            <a
-              href="#viaggi"
-              className="rounded-full bg-[#ef8b43] px-7 py-4 text-center font-bold text-[#402216] transition hover:-translate-y-0.5 hover:bg-[#ff9c55]"
-            >
-              Scopri le partenze
-            </a>
+            <div className="mt-9 flex flex-col gap-3 sm:flex-row">
+              <a
+                href="#viaggi"
+                className="rounded-full bg-[#ef8b43] px-7 py-4 text-center font-bold text-[#402216] transition hover:-translate-y-0.5 hover:bg-[#ff9c55]"
+              >
+                Scopri le partenze
+              </a>
 
-            <a
-              href="/chi-siamo"
-              className="rounded-full border border-white/40 px-7 py-4 text-center font-semibold text-white transition hover:bg-white hover:text-black"
-            >
-              Conosci LOKΛHI
-            </a>
-          </div>
+              <a
+                href="/chi-siamo"
+                className="rounded-full border border-white/40 px-7 py-4 text-center font-semibold text-white transition hover:bg-white hover:text-black"
+              >
+                Conosci LOKΛHI
+              </a>
+            </div>
         </div>
       </section>
 
