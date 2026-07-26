@@ -273,20 +273,64 @@ export default function Home() {
 
           {[
             [
-              "Posso partecipare anche se parto da sola?",
-              "Sì. Molte partecipanti si iscrivono senza conoscere già il gruppo.",
+              "Il volo è incluso nel prezzo?",
+              "Dipende dalla destinazione. Generalmente, nei viaggi all’interno dell’Europa il volo non è incluso, mentre nei viaggi fuori dall’Europa è incluso. Le condizioni esatte saranno sempre indicate nella pagina di ogni viaggio.",
             ],
             [
-              "A chi sono dedicati i viaggi?",
-              "I viaggi sono pensati per donne queer adulte. Ogni partenza riporterà chiaramente tutte le informazioni.",
+              "Serve il passaporto?",
+              "Dipende dalla destinazione. Per molti viaggi europei è sufficiente la carta d’identità valida per l’espatrio; per le destinazioni fuori dall’Europa è generalmente necessario il passaporto. I documenti richiesti saranno specificati nella scheda del viaggio.",
             ],
             [
-              "Come funziona la prenotazione?",
-              "Invii una richiesta, ricevi i dettagli completi e completi i passaggi necessari per confermare il posto.",
+              "Posso partecipare da sola?",
+              "Certamente. Quasi tutte le partecipanti partono da sole: il viaggio nasce proprio per incontrare persone nuove, condividere esperienze autentiche e creare connessioni.",
             ],
             [
-              "Come vengono gestiti documenti e consensi?",
-              "Nell’area personale sarà possibile consultare, firmare o caricare in modo privato i documenti richiesti.",
+              "Posso partecipare con un’amica?",
+              "Sì, purché sia una donna queer e condivida lo spirito e i valori dell’esperienza.",
+            ],
+            [
+              "Posso partecipare con la mia compagna?",
+              "Assolutamente sì. Partecipare in coppia può diventare un’occasione per vivere qualcosa di nuovo insieme e rafforzare la vostra relazione.",
+            ],
+            [
+              "Come sono organizzate le camere?",
+              "Le camere sono generalmente doppie o triple, con letti singoli o matrimoniali a seconda della struttura. La sistemazione precisa sarà indicata nella pagina del viaggio.",
+            ],
+            [
+              "È possibile richiedere una camera singola?",
+              "Dipende dal viaggio e dalla disponibilità delle strutture. Quando possibile, si può richiedere una camera singola pagando un supplemento e contattando la coordinatrice. Consigliamo comunque di condividere la camera con una o due partecipanti, perché anche la quotidianità e la convivenza fanno parte dell’esperienza LOKAHI.",
+            ],
+            [
+              "Sono timida: potrebbe essere un problema?",
+              "Assolutamente no. Molte partecipanti arrivano con un po’ di timore. Attraverso momenti di conoscenza e attività rompighiaccio, creeremo gradualmente un ambiente spontaneo, accogliente e senza pressioni.",
+            ],
+            [
+              "Posso partecipare se sono lesbica o bisessuale?",
+              "Sì. I viaggi LOKAHI sono dedicati alle donne queer, comprese donne lesbiche e bisessuali.",
+            ],
+            [
+              "Qual è l’età delle partecipanti?",
+              "È possibile partecipare dai 18 anni. La maggior parte delle partecipanti ha tra i 25 e i 35 anni, ma i gruppi possono comprendere donne più giovani o più adulte. Ciò che conta è condividere lo spirito del viaggio.",
+            ],
+            [
+              "Come vengono gestite allergie, intolleranze o scelte alimentari?",
+              "Comunicaci in anticipo allergie, intolleranze o esigenze come un’alimentazione vegetariana o vegana. La coordinatrice farà il possibile per organizzare soluzioni adeguate, compatibilmente con la destinazione e le strutture disponibili.",
+            ],
+            [
+              "Come funziona la cassa comune?",
+              "La cassa comune non è prevista in tutti i viaggi. Quando presente, serve a gestire alcune spese condivise. La coordinatrice registra ogni movimento e condivide con il gruppo un riepilogo aggiornato, così che tutte possano controllare le spese.",
+            ],
+            [
+              "Come organizzeremo i dettagli prima della partenza?",
+              "Circa uno o due mesi prima della partenza, la coordinatrice creerà un gruppo WhatsApp dedicato. Qui condividerà informazioni, appuntamenti, aggiornamenti e una lista delle cose essenziali da portare.",
+            ],
+            [
+              "Mi sono lasciata da poco: un viaggio del genere potrebbe aiutarmi?",
+              "Sì, soprattutto se senti il bisogno di uscire dalla routine e ritrovare leggerezza. Il viaggio può offrirti nuovi stimoli, incontri e uno spazio accogliente in cui dedicare tempo a te stessa.",
+            ],
+            [
+              "Devo comparire nelle fotografie e nei video pubblicati sui social?",
+              "No. Prima del viaggio potrai scegliere liberamente se autorizzare fotografie e video destinati alla comunicazione di LOKAHI. La partecipazione al viaggio non dipende dal consenso e la scelta di non comparire verrà rispettata.",
             ],
           ].map(([question, answer]) => (
             <details
