@@ -322,7 +322,7 @@ export default function Home() {
         </div>
 
         <a
-          href="mailto:info@lokahi.example"
+          href="mailto:lokahi.form@gmail.com"
           className="w-full rounded-full bg-white px-8 py-4 text-center font-bold text-[#1e1b18] transition hover:-translate-y-0.5 lg:w-auto"
         >
           Scrivici
