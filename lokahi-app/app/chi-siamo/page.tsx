@@ -75,17 +75,16 @@ export default function ChiSiamo() {
 
             <section className="px-6 pb-24 md:px-12 lg:px-20 lg:pb-32">
                 <div className="mx-auto grid max-w-7xl overflow-hidden rounded-[34px] bg-white shadow-[0_24px_70px_rgba(42,30,19,.14)] lg:grid-cols-[0.8fr_1.2fr]">
-                    <div className="flex min-h-[520px] items-center justify-center bg-[#ef8b43] p-10 text-center">
-                        <div>
-                            <div className="mx-auto flex h-32 w-32 items-center justify-center rounded-full border-2 border-white/60 text-4xl font-light text-white">
-                                M
-                            </div>
-                            <p className="mt-7 text-3xl font-bold text-white">Miriam</p>
-                            <p className="mt-2 text-sm uppercase tracking-[0.25em] text-white/70">
+                    <div className="relative min-h-[520px] overflow-hidden bg-[#ef8b43]">
+                        <img
+                            src="/miriam.jpg"
+                            alt="Miriam, fondatrice di LOKAHI"
+                            className="absolute inset-0 h-full w-full object-cover object-center"
+                        />
+                        <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent p-8 pt-24 text-white">
+                            <p className="text-3xl font-bold">Miriam</p>
+                            <p className="mt-2 text-sm uppercase tracking-[0.25em] text-white/80">
                                 Fondatrice di LOKAHI
-                            </p>
-                            <p className="mt-8 text-sm text-white/70">
-                                Qui inseriremo la fotografia di Miriam
                             </p>
                         </div>
                     </div>
@@ -143,7 +142,7 @@ export default function ChiSiamo() {
                         </p>
 
                         <p>
-                            Attraverso viaggi ed esperienze di gruppo dedicati a donne Queer. 
+                            Attraverso viaggi ed esperienze di gruppo dedicati a donne Queer.
                             LOKAHI crea occasioni per incontrarsi, confrontarsi e vivere liberamente il proprio orientamento
                             sessuale.
                         </p>
