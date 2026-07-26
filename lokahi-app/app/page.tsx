@@ -84,12 +84,36 @@ export default function Home() {
           </a>
         </nav>
 
-        <a
-          href="#viaggi"
-          className="rounded-full bg-[#ef8b43] px-4 py-2 text-xs font-semibold text-[#402216] md:hidden"
-        >
-          Viaggi
-        </a>
+        <details className="relative md:hidden">
+          <summary className="cursor-pointer list-none rounded-full bg-[#ef8b43] px-4 py-2 text-xs font-semibold text-[#402216]">
+            ☰ Menu
+          </summary>
+
+          <nav className="absolute right-0 top-12 flex w-56 flex-col gap-1 rounded-2xl bg-[#402216] p-3 text-sm text-white shadow-xl">
+            <a className="rounded-xl px-4 py-3 hover:bg-white/10" href="#viaggi">
+              Viaggi
+            </a>
+
+            <a className="rounded-xl px-4 py-3 hover:bg-white/10" href="#esperienza">
+              L’esperienza
+            </a>
+
+            <a className="rounded-xl px-4 py-3 hover:bg-white/10" href="/chi-siamo">
+              Chi siamo
+            </a>
+
+            <a className="rounded-xl px-4 py-3 hover:bg-white/10" href="#faq">
+              FAQ
+            </a>
+
+            <a
+              className="mt-1 rounded-xl bg-[#ef8b43] px-4 py-3 font-semibold text-[#402216]"
+              href="#contatti"
+            >
+              Richiedi informazioni
+            </a>
+          </nav>
+        </details>
       </header>
 
       <section
