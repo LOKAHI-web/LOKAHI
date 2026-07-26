@@ -271,10 +271,10 @@ export default function Home() {
               viaggi.
             </p>
             <a
-              href="#contatti"
+              href="/chi-siamo"
               className="mt-7 font-bold text-[#d96e24]"
             >
-              Raccontaci il viaggio che cerchi →
+              Scopri di più →
             </a>
           </div>
         </div>
