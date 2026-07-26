@@ -109,26 +109,26 @@ export default function Home() {
             Parti con sconosciute.
             <br />
             Torni con amiche queer.
+          </h1>
+          <p className="mt-7 max-w-2xl text-base leading-8 text-white/80 md:text-lg">
+            Nuovi luoghi, nuovi legami e la libertà di essere te stessa.
+          </p>
 
-            <p className="mt-7 max-w-2xl text-base leading-8 text-white/80 md:text-lg">
-              Nuovi luoghi, nuovi legami e la libertà di essere te stessa.
-            </p>
+          <div className="mt-9 flex flex-col gap-3 sm:flex-row">
+            <a
+              href="#viaggi"
+              className="rounded-full bg-[#ef8b43] px-7 py-4 text-center font-bold text-[#402216] transition hover:-translate-y-0.5 hover:bg-[#ff9c55]"
+            >
+              Scopri le partenze
+            </a>
 
-            <div className="mt-9 flex flex-col gap-3 sm:flex-row">
-              <a
-                href="#viaggi"
-                className="rounded-full bg-[#ef8b43] px-7 py-4 text-center font-bold text-[#402216] transition hover:-translate-y-0.5 hover:bg-[#ff9c55]"
-              >
-                Scopri le partenze
-              </a>
-
-              <a
-                href="/chi-siamo"
-                className="rounded-full border border-white/40 px-7 py-4 text-center font-semibold text-white transition hover:bg-white hover:text-black"
-              >
-                Conosci LOKΛHI
-              </a>
-            </div>
+            <a
+              href="/chi-siamo"
+              className="rounded-full border border-white/40 px-7 py-4 text-center font-semibold text-white transition hover:bg-white hover:text-black"
+            >
+              Conosci LOKΛHI
+            </a>
+          </div>
         </div>
       </section>
 
