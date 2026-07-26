@@ -60,7 +60,7 @@ export default function Home() {
           className="text-sm font-semibold tracking-[0.28em]"
           aria-label="LOKAHI home"
         >
-          LOKAHI
+          LOKΛHI
         </a>
 
         <nav className="hidden items-center gap-7 text-sm md:flex">
@@ -112,7 +112,7 @@ export default function Home() {
           </h1>
 
           <p className="mt-7 max-w-2xl text-base leading-8 text-white/80 md:text-lg">
-            Esperienze curate, piccoli gruppi e connessioni autentiche. LOKAHI
+            Esperienze curate, piccoli gruppi e connessioni autentiche. LOKΛHI
             crea viaggi accoglienti in cui sentirsi libere di essere sé stesse.
           </p>
 
@@ -128,7 +128,7 @@ export default function Home() {
               href="/chi-siamo"
               className="rounded-full border border-white/40 px-7 py-4 text-center font-semibold text-white transition hover:bg-white hover:text-black"
             >
-              Conosci LOKAHI
+              Conosci LOKΛHI
             </a>
           </div>
         </div>
@@ -195,7 +195,7 @@ export default function Home() {
       >
         <div className="max-w-xl">
           <p className="mb-5 text-xs font-bold uppercase tracking-[0.2em] text-orange-300">
-            Perché LOKAHI
+            Perché LOKΛHI
           </p>
           <h2 className="text-5xl font-bold leading-[0.98] tracking-[-0.055em] md:text-7xl">
             Non solo una destinazione.
@@ -241,7 +241,7 @@ export default function Home() {
               Chi siamo
             </p>
             <h2 className="text-4xl font-bold leading-[1.02] tracking-[-0.05em] md:text-6xl">
-              LOKAHI nasce per far incontrare persone, luoghi e possibilità.
+              LOKΛHI nasce per far incontrare persone, luoghi e possibilità.
             </h2>
             <p className="mt-7 leading-8 text-[#6d6964]">
               Qui inseriremo la storia della fondatrice, il significato del
@@ -294,7 +294,7 @@ export default function Home() {
             ],
             [
               "È possibile richiedere una camera singola?",
-              "Dipende dal viaggio e dalla disponibilità delle strutture. Quando possibile, si può richiedere una camera singola pagando un supplemento e contattando la coordinatrice. Consigliamo comunque di condividere la camera con una o due partecipanti, perché anche la quotidianità e la convivenza fanno parte dell’esperienza LOKAHI.",
+              "Dipende dal viaggio e dalla disponibilità delle strutture. Quando possibile, si può richiedere una camera singola pagando un supplemento e contattando la coordinatrice. Consigliamo comunque di condividere la camera con una o due partecipanti, perché anche la quotidianità e la convivenza fanno parte dell’esperienza LOKΛHI.",
             ],
             [
               "Sono timida: potrebbe essere un problema?",
@@ -302,7 +302,7 @@ export default function Home() {
             ],
             [
               "Posso partecipare se sono lesbica o bisessuale?",
-              "Sì. I viaggi LOKAHI sono dedicati alle donne queer, comprese donne lesbiche e bisessuali.",
+              "Sì. I viaggi LOKΛHI sono dedicati alle donne queer, comprese donne lesbiche e bisessuali.",
             ],
             [
               "Qual è l’età delle partecipanti?",
@@ -326,7 +326,7 @@ export default function Home() {
             ],
             [
               "Devo comparire nelle fotografie e nei video pubblicati sui social?",
-              "No. Prima del viaggio potrai scegliere liberamente se autorizzare fotografie e video destinati alla comunicazione di LOKAHI. La partecipazione al viaggio non dipende dal consenso e la scelta di non comparire verrà rispettata.",
+              "No. Prima del viaggio potrai scegliere liberamente se autorizzare fotografie e video destinati alla comunicazione di LOKΛHI. La partecipazione al viaggio non dipende dal consenso e la scelta di non comparire verrà rispettata.",
             ],
           ].map(([question, answer]) => (
             <details
@@ -353,7 +353,7 @@ export default function Home() {
             Pronta a partire?
           </p>
           <h2 className="max-w-4xl text-5xl font-bold leading-[0.98] tracking-[-0.055em] md:text-7xl">
-            Entra nel prossimo viaggio LOKAHI.
+            Entra nel prossimo viaggio LOKΛHI.
           </h2>
           <p className="mt-6 max-w-2xl leading-8">
             Lascia il tuo contatto per ricevere partenze, disponibilità e tutte
@@ -383,7 +383,7 @@ export default function Home() {
         </div>
 
         <p className="border-t border-white/10 pt-7 text-sm md:col-span-2">
-          © 2026 LOKAHI · Tutti i diritti riservati
+          © 2026 LOKΛHI · Tutti i diritti riservati
         </p>
       </footer>
     </main>
