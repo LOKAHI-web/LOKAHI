@@ -7,6 +7,7 @@ const trips = [
       "Siracusa, mare, natura, i crateri dell’Etna e tutto il sapore dello street food siciliano.",
     image:
       "/sicilia-cannoli.jpg",
+  },
   {
     destination: "Messico",
     dates: "25 ottobre–3 novembre 2026",
