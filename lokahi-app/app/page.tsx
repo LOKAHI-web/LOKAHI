@@ -6,7 +6,7 @@ const trips = [
     description:
       "Siracusa, mare, natura, i crateri dell’Etna e tutto il sapore dello street food siciliano.",
     image:
-      "https://images.unsplash.com/photo-1523365280197-f1783db9fe62?auto=format&fit=crop&w=1400&q=85",
+      "https://unsplash.com/photos/tCIFd8dkUAs/download?force=true&w=1400",
   },
   {
     destination: "Messico",
@@ -15,7 +15,7 @@ const trips = [
     description:
       "Un viaggio nel cuore del Messico durante il Día de los Muertos, tra colori, tradizioni e celebrazioni indimenticabili.",
     image:
-      "https://images.unsplash.com/photo-1518638150340-f706e86654de?auto=format&fit=crop&w=1400&q=85",
+      "https://unsplash.com/photos/3_sY6Plqs6g/download?force=true&w=1400",
   },
   {
     destination: "Islanda",
@@ -49,7 +49,7 @@ const trips = [
     dates: "28 marzo–4 aprile 2027",
     status: "Lavori in corso",
     description:
-     "Pasqua in Marocco, tra oceano e natura: surf, passeggiate a cavallo, medine, luoghi autentici e sapori tipici marocchini.",
+      "Pasqua in Marocco, tra oceano e natura: surf, passeggiate a cavallo, medine, luoghi autentici e sapori tipici marocchini.",
     image:
       "https://images.unsplash.com/photo-1489493585363-d69421e0edd3?auto=format&fit=crop&w=1400&q=85",
   },
