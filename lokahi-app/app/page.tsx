@@ -31,9 +31,9 @@ const trips = [
     dates: "6–8 dicembre 2026",
     status: "Lavori in corso",
     description:
-      "Un fine settimana tra luci, profumi natalizi, sapori tipici e tutta la magia dei mercatini di Natale.",
+     "Tre giorni tra Innsbruck, Vipiteno e Levico Terme, immersi nelle luci, nei profumi e nella magia dei mercatini di Natale.",
     image:
-      "https://images.unsplash.com/photo-1483664852095-d6cc6870702d?auto=format&fit=crop&w=1400&q=85",
+      "https://unsplash.com/photos/RwewI1Mdx-s/download?force=true&w=1400",
   },
   {
     destination: "Surf Week Fuerteventura",
