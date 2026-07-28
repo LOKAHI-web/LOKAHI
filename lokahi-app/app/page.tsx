@@ -6,7 +6,7 @@ const trips = [
     description:
       "Siracusa, mare, natura, i crateri dell’Etna e tutto il sapore dello street food siciliano.",
     image:
-      "https://unsplash.com/photos/tCIFd8dkUAs/download?force=true&w=1400",
+      "https://images.pexels.com/photos/5987500/pexels-photo-5987500.jpeg?auto=compress&cs=tinysrgb&w=1400",
   },
   {
     destination: "Messico",
@@ -15,7 +15,7 @@ const trips = [
     description:
       "Un viaggio nel cuore del Messico durante il Día de los Muertos, tra colori, tradizioni e celebrazioni indimenticabili.",
     image:
-      "https://unsplash.com/photos/3_sY6Plqs6g/download?force=true&w=1400",
+      "https://images.unsplash.com/photo-1518638150340-f706e86654de?auto=format&fit=crop&w=1400&q=85",
   },
   {
     destination: "Islanda",
@@ -31,9 +31,9 @@ const trips = [
     dates: "6–8 dicembre 2026",
     status: "Lavori in corso",
     description:
-     "Tre giorni tra Innsbruck, Vipiteno e Levico Terme, immersi nelle luci, nei profumi e nella magia dei mercatini di Natale.",
+      "Tre giorni tra Innsbruck, Vipiteno e Levico Terme, immersi nelle luci, nei profumi e nella magia dei mercatini di Natale.",
     image:
-      "https://unsplash.com/photos/RwewI1Mdx-s/download?force=true&w=1400",
+      "https://images.pexels.com/photos/34513548/pexels-photo-34513548.jpeg?auto=compress&cs=tinysrgb&w=1400",
   },
   {
     destination: "Surf Week Fuerteventura",
