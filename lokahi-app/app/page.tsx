@@ -6,8 +6,7 @@ const trips = [
     description:
       "Siracusa, mare, natura, i crateri dell’Etna e tutto il sapore dello street food siciliano.",
     image:
-      "https://images.pexels.com/photos/5987500/pexels-photo-5987500.jpeg?auto=compress&cs=tinysrgb&w=1400",
-  },
+      "/sicilia-cannoli.jpg",
   {
     destination: "Messico",
     dates: "25 ottobre–3 novembre 2026",
@@ -33,7 +32,7 @@ const trips = [
     description:
       "Tre giorni tra Innsbruck, Vipiteno e Levico Terme, immersi nelle luci, nei profumi e nella magia dei mercatini di Natale.",
     image:
-      "https://images.pexels.com/photos/34513548/pexels-photo-34513548.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "/mercatini-natale.jpg",
   },
   {
     destination: "Surf Week Fuerteventura",
