@@ -1,30 +1,57 @@
 const trips = [
   {
-    destination: "Marocco",
-    dates: "8–18 novembre 2026",
-    status: "Iscrizioni aperte",
+    destination: "Sicilia",
+    dates: "6–12 settembre 2026",
+    status: "Ultimo posto",
     description:
-      "Medine, deserto, oceano e giornate da condividere in un piccolo gruppo.",
+      "Siracusa, mare, natura, i crateri dell’Etna e tutto il sapore dello street food siciliano.",
     image:
-      "https://images.unsplash.com/photo-1489493585363-d69421e0edd3?auto=format&fit=crop&w=1400&q=85",
+      "https://images.unsplash.com/photo-1523365280197-f1783db9fe62?auto=format&fit=crop&w=1400&q=85",
   },
   {
-    destination: "Giappone",
-    dates: "Primavera 2027",
-    status: "Lista d’attesa",
+    destination: "Messico",
+    dates: "25 ottobre–3 novembre 2026",
+    status: "Ultimi 2 posti",
     description:
-      "Tradizioni, città sorprendenti e connessioni autentiche lungo il viaggio.",
+      "Un viaggio nel cuore del Messico durante il Día de los Muertos, tra colori, tradizioni e celebrazioni indimenticabili.",
     image:
-      "https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=1400&q=85",
+      "https://images.unsplash.com/photo-1518638150340-f706e86654de?auto=format&fit=crop&w=1400&q=85",
   },
   {
     destination: "Islanda",
-    dates: "Inverno 2027",
-    status: "Prossimamente",
+    dates: "22–29 novembre 2026",
+    status: "Sold out",
     description:
-      "Paesaggi immensi, natura potente e il calore di un gruppo accogliente.",
+      "Alla ricerca dell’aurora boreale, tra paesaggi immensi, natura selvaggia e meraviglie di ghiaccio.",
     image:
       "https://images.unsplash.com/photo-1529963183134-61a90db47eaf?auto=format&fit=crop&w=1400&q=85",
+  },
+  {
+    destination: "Mercatini di Natale",
+    dates: "6–8 dicembre 2026",
+    status: "Lavori in corso",
+    description:
+      "Un fine settimana tra luci, profumi natalizi, sapori tipici e tutta la magia dei mercatini di Natale.",
+    image:
+      "https://images.unsplash.com/photo-1483664852095-d6cc6870702d?auto=format&fit=crop&w=1400&q=85",
+  },
+  {
+    destination: "Surf Week Fuerteventura",
+    dates: "30 dicembre 2026–5 gennaio 2027",
+    status: "Iscrizioni aperte",
+    description:
+      "Un Capodanno tra oceano, surf, surf skate, dry surf, trekking, natura e nuove amicizie queer.",
+    image:
+      "https://images.unsplash.com/photo-1502680390469-be75c86b636f?auto=format&fit=crop&w=1400&q=85",
+  },
+  {
+    destination: "Marocco",
+    dates: "28 marzo–4 aprile 2027",
+    status: "Lavori in corso",
+    description:
+      "Una Pasqua tra medine, deserto, colori, sapori e giornate da condividere in un piccolo gruppo.",
+    image:
+      "https://images.unsplash.com/photo-1489493585363-d69421e0edd3?auto=format&fit=crop&w=1400&q=85",
   },
 ];
 
