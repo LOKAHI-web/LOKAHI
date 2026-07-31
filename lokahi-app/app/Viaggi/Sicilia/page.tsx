@@ -38,7 +38,7 @@ const programma = [
     giorno: "9 settembre",
     titolo: "Fontane Bianche e Noto",
     attivita: [
-      "Mattinata di relax nella spiaggia di Fontane Bianche.",
+      "Mattinata di relax sulla spiaggia di Fontane Bianche.",
       "Pranzo nella villa.",
       "Degustazione Donnafugata facoltativa.",
       "Passeggiata serale tra le meraviglie barocche di Noto.",
@@ -87,7 +87,7 @@ export default function SiciliaPage() {
             href="/"
             className="font-semibold tracking-[0.28em]"
           >
-            LOKΛHI
+            LOKAHI
           </Link>
 
           <Link
@@ -99,17 +99,13 @@ export default function SiciliaPage() {
         </div>
       </header>
 
-      <section className="px-6 pb-16 pt-10 md:px-12 lg:px-20">
+      <section className="px-6 pb-20 pt-14 md:px-12 lg:px-20 lg:pb-28">
         <div className="mx-auto max-w-7xl">
-          <span className="inline-block rounded-full bg-[#ef8b43] px-5 py-2 text-sm font-bold">
-            Sold out
-          </span>
-
-          <p className="mt-8 text-sm font-bold uppercase tracking-[0.2em] text-[#d96e24]">
-            6–12 settembre 2026
+          <p className="text-sm font-bold uppercase tracking-[0.2em] text-[#d96e24]">
+            Sicilia · 6–12 settembre 2026
           </p>
 
-          <h1 className="mt-4 max-w-5xl text-6xl font-bold leading-[0.92] tracking-[-0.06em] md:text-8xl">
+          <h1 className="mt-6 max-w-5xl text-6xl font-bold leading-[0.92] tracking-[-0.06em] md:text-8xl lg:text-[110px]">
             Sicilia: un viaggio da vivere insieme.
           </h1>
 
@@ -123,8 +119,10 @@ export default function SiciliaPage() {
 
       <section className="px-6 pb-20 md:px-12 lg:px-20">
         <div
-          className="mx-auto h-56 max-w-4xl rounded-[30px] bg-cover bg-center md:h-80"
-          style={{ backgroundImage: "url('/sicilia-cannoli.jpg')" }}
+          className="mx-auto min-h-[300px] max-w-5xl rounded-[34px] bg-cover bg-center md:min-h-[420px]"
+          style={{
+            backgroundImage: "url('/sicilia-cannoli.jpg')",
+          }}
         />
       </section>
 
@@ -136,104 +134,102 @@ export default function SiciliaPage() {
             </p>
 
             <h2 className="mt-5 text-5xl font-bold leading-[0.98] tracking-[-0.05em] md:text-7xl">
-              Uno spazio sicuro. Una piccola famiglia.
+              Creare uno spazio sicuro e una piccola famiglia.
             </h2>
           </div>
 
           <div className="space-y-6 text-lg leading-9 text-white/75">
             <p>
-              Vogliamo creare uno spazio nel quale vivere insieme come se ci
-              conoscessimo da sempre, come accade con le anime che si
-              riconoscono subito.
+              Vogliamo viverci come se ci conoscessimo da sempre, come succede
+              con le anime che si riconoscono subito.
             </p>
 
             <p>
-              Durante il viaggio ci saranno esperienze e attività pensate per
-              farti sentire vista, accolta e libera di essere esattamente chi
-              sei. Scopriremo luoghi meravigliosi e, soprattutto, parti nuove
-              di noi stesse.
+              Durante il viaggio ci saranno momenti, esperienze e attività
+              pensate per farti sentire vista, accolta e libera di essere
+              esattamente chi sei.
             </p>
 
             <p>
-              Partirai con persone che oggi sono sconosciute e che presto non
-              lo saranno più. Quando tornerai a casa non porterai con te
-              soltanto fotografie, ma connessioni vere e il ricordo di
-              qualcosa che ti ha lasciato un segno.
+              Insieme scopriremo luoghi meravigliosi e parti nuove di noi
+              stesse. Condividerai momenti difficili da dimenticare con persone
+              che oggi sono sconosciute e che presto non lo saranno più.
+            </p>
+
+            <p>
+              Quando tornerai a casa non porterai con te soltanto fotografie,
+              ma connessioni vere e la sensazione di aver vissuto qualcosa che
+              ti ha lasciato un segno.
             </p>
           </div>
         </div>
       </section>
 
-      <section className="px-6 py-20 md:px-12 lg:px-20">
+      <section className="px-6 py-20 md:px-12 lg:px-20 lg:py-28">
         <div className="mx-auto max-w-5xl">
           <p className="text-sm font-bold uppercase tracking-[0.2em] text-[#d96e24]">
-            Programma
+            Programma del viaggio
           </p>
 
           <h2 className="mt-5 text-5xl font-bold tracking-[-0.05em] md:text-7xl">
             Giorno dopo giorno.
           </h2>
 
-          <div className="mt-14 space-y-6">
+          <p className="mt-6 max-w-3xl text-lg leading-8 text-[#6d6964]">
+            Premi su ogni giornata per scoprire le attività previste.
+          </p>
+
+          <div className="mt-14 space-y-4">
             {programma.map((tappa) => (
-              <article
+              <details
                 key={tappa.giorno}
-                className="rounded-[28px] bg-white p-7 shadow-[0_20px_60px_rgba(64,34,22,0.08)] md:p-10"
+                className="group rounded-[28px] bg-white p-6 shadow-[0_18px_50px_rgba(64,34,22,0.08)] md:p-9"
               >
-                <p className="font-bold uppercase tracking-[0.18em] text-[#d96e24]">
-                  {tappa.giorno}
-                </p>
+                <summary className="flex cursor-pointer list-none items-center justify-between gap-5">
+                  <div>
+                    <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#d96e24]">
+                      {tappa.giorno}
+                    </p>
 
-                <h3 className="mt-3 text-3xl font-bold tracking-[-0.04em]">
-                  {tappa.titolo}
-                </h3>
+                    <h3 className="mt-2 text-2xl font-bold md:text-3xl">
+                      {tappa.titolo}
+                    </h3>
+                  </div>
 
-                <ul className="mt-6 space-y-3 text-lg leading-8 text-[#6d6964]">
+                  <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-[#ef8b43] text-2xl font-bold text-[#402216] transition-transform duration-200 group-open:rotate-45">
+                    +
+                  </span>
+                </summary>
+
+                <ul className="mt-6 list-disc space-y-3 border-t border-[#402216]/10 pl-6 pt-6 leading-8 text-[#6d6964]">
                   {tappa.attivita.map((attivita) => (
-                    <li key={attivita} className="flex gap-3">
-                      <span className="text-[#ef8b43]">●</span>
-                      <span>{attivita}</span>
-                    </li>
+                    <li key={attivita}>{attivita}</li>
                   ))}
                 </ul>
-              </article>
+              </details>
             ))}
           </div>
+
+          <div className="mt-12 rounded-[28px] bg-[#ef8b43] p-7 md:p-10">
+            <p className="text-sm font-bold uppercase tracking-[0.18em]">
+              Informazione importante
+            </p>
+
+            <p className="mt-4 text-lg leading-8">
+              Se hai allergie, intolleranze o esigenze alimentari particolari,
+              comunicalo via email prima della prenotazione.
+            </p>
+          </div>
+
+          <div className="mt-12">
+            <Link
+              href="/#viaggi"
+              className="inline-block rounded-full bg-[#402216] px-7 py-4 font-bold text-white"
+            >
+              Torna a tutti i viaggi
+            </Link>
+          </div>
         </div>
-      </section>
-
-      <section className="px-6 pb-24 md:px-12 lg:px-20">
-        <div className="mx-auto max-w-5xl rounded-[34px] bg-[#ef8b43] p-8 md:p-14">
-          <p className="text-sm font-bold uppercase tracking-[0.2em]">
-            Informazione importante
-          </p>
-
-          <h2 className="mt-4 text-4xl font-bold tracking-[-0.04em]">
-            Intolleranze o allergie?
-          </h2>
-
-          <p className="mt-5 max-w-3xl text-lg leading-8">
-            Comunicale via e-mail prima della prenotazione, così potremo
-            organizzare tutto nel modo migliore.
-          </p>
-        </div>
-      </section>
-
-      <section className="bg-[#402216] px-6 py-20 text-center text-white">
-        <p className="text-sm font-bold uppercase tracking-[0.2em] text-[#ef8b43]">
-          Questo viaggio è sold out
-        </p>
-
-        <h2 className="mx-auto mt-5 max-w-3xl text-5xl font-bold tracking-[-0.05em] md:text-7xl">
-          La prossima esperienza potrebbe essere la tua.
-        </h2>
-
-        <Link
-          href="/#viaggi"
-          className="mt-9 inline-block rounded-full bg-[#ef8b43] px-8 py-4 font-bold text-[#402216]"
-        >
-          Scopri i prossimi viaggi
-        </Link>
       </section>
     </main>
   );
