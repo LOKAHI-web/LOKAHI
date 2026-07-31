@@ -212,7 +212,7 @@ export default function Home() {
                   className="relative min-h-[230px] bg-cover bg-center sm:min-h-[300px] lg:min-h-[340px]"
                   style={{ backgroundImage: `url('${trip.image}')` }}
                 >
-                  <span className="absolute left-5 top-5 rounded-full bg-black/55 px-4 py-2 text-sm font-semibold text-white backdrop-blur-md">
+                  <span className="absolute left-4 top-4 rounded-full bg-[#ef8b43] px-5 py-2.5 text-sm font-bold text-[#402216]">
                     {trip.status}
                   </span>
                 </div>
