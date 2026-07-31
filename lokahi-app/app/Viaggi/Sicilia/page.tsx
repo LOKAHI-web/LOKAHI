@@ -123,7 +123,7 @@ export default function SiciliaPage() {
 
       <section className="px-6 pb-20 md:px-12 lg:px-20">
         <div
-          className="mx-auto min-h-[420px] max-w-7xl rounded-[34px] bg-cover bg-center md:min-h-[620px]"
+          className="mx-auto h-56 max-w-4xl rounded-[30px] bg-cover bg-center md:h-80"
           style={{ backgroundImage: "url('/sicilia-cannoli.jpg')" }}
         />
       </section>
