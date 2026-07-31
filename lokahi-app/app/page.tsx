@@ -3,7 +3,7 @@ const trips = [
     destination: "Sicilia",
     dates: "6–12 settembre 2026",
     status: "Sold Out",
-    href: "/viaggi/sicilia",
+    href: "/Viaggi/Sicilia",
     description:
       "Siracusa, mare, natura, i crateri dell’Etna e tutto il sapore dello street food siciliano.",
     image:
