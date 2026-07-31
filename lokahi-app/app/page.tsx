@@ -209,15 +209,15 @@ export default function Home() {
                 className="overflow-hidden rounded-[30px] bg-white shadow-[0_24px_70px_rgba(42,30,19,.14)]"
               >
                 <div
-                  className="relative min-h-[340px] bg-cover bg-center"
+                  className="relative min-h-[230px] bg-cover bg-center sm:min-h-[300px] lg:min-h-[340px]"
                   style={{ backgroundImage: `url('${trip.image}')` }}
                 >
-                  <span className="absolute left-5 top-5 rounded-full bg-black/55 px-4 py-2 text-xs font-semibold text-white backdrop-blur-md">
+                  <span className="absolute left-5 top-5 rounded-full bg-black/55 px-4 py-2 text-sm font-semibold text-white backdrop-blur-md">
                     {trip.status}
                   </span>
                 </div>
 
-                <div className="p-7">
+                <div className="p-5 sm:p-7">
                   <p className="text-sm text-[#77716b]">{trip.dates}</p>
                   <h3 className="mt-3 text-3xl font-bold tracking-[-0.04em]">
                     {trip.destination}
