@@ -56,8 +56,7 @@ const trips = [
     href: "/Viaggi/Thailandia",
     description:
       "Un viaggio tra isole tropicali, templi, natura, sapori locali e nuove amicizie queer.",
-    image:
-      "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1400&q=85",
+    image: "/thailandia.jpg",
   },
   {
     destination: "Giappone",
@@ -76,8 +75,7 @@ const trips = [
     href: "/Viaggi/Islanda-2027",
     description:
       "Alla ricerca dell’aurora boreale, tra paesaggi immensi, natura selvaggia e meraviglie di ghiaccio.",
-    image:
-      "https://images.unsplash.com/photo-1529963183134-61a90db47eaf?auto=format&fit=crop&w=1400&q=85",
+    image: "/islanda-2027.jpg",
   },
   {
     destination: "Sardegna in camper",
@@ -86,8 +84,7 @@ const trips = [
     href: "/Viaggi/Sardegna-camper",
     description:
       "Un’avventura in camper tra spiagge meravigliose, natura, libertà e nuove amicizie queer.",
-    image:
-      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=85",
+    image: "/sardegna-camper.jpg",
   },
   {
     destination: "Puglia",
@@ -96,8 +93,7 @@ const trips = [
     href: "/Viaggi/Puglia",
     description:
       "Mare, borghi, sapori autentici e giornate da vivere insieme nel cuore della Puglia.",
-    image:
-      "https://images.unsplash.com/photo-1602002418082-a4443e081dd1?auto=format&fit=crop&w=1400&q=85",
+    image: "/puglia.jpg",
   },
   {
     destination: "Sicilia",
@@ -115,8 +111,7 @@ const trips = [
     href: "/Viaggi/Crociera-over-40",
     description:
       "Una crociera sui Fiordi Norvegesi dedicata alle donne queer dai 40 anni in su.",
-    image:
-      "https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&w=1400&q=85",
+    image: "/fiordi.jpg",
   },
 ];
 
