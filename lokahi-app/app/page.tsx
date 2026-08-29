@@ -3,6 +3,7 @@ const trips = [
     destination: "Messico",
     dates: "25 ottobre–3 novembre 2026",
     status: "Ultimi 2 posti",
+    href: "/Viaggi/Messico",
     description:
       "Un viaggio nel cuore del Messico durante il Día de los Muertos, tra colori, tradizioni e celebrazioni indimenticabili.",
     image:
@@ -12,6 +13,7 @@ const trips = [
     destination: "Islanda",
     dates: "22–29 novembre 2026",
     status: "Sold out",
+    href: "/Viaggi/Islanda",
     description:
       "Alla ricerca dell’aurora boreale, tra paesaggi immensi, natura selvaggia e meraviglie di ghiaccio.",
     image:
@@ -21,6 +23,7 @@ const trips = [
     destination: "Mercatini di Natale",
     dates: "6–8 dicembre 2026",
     status: "Lavori in corso",
+    href: "/Viaggi/Mercatini%20Natale",
     description:
       "Tre giorni tra Innsbruck, Vipiteno e Levico Terme, immersi nelle luci, nei profumi e nella magia dei mercatini di Natale.",
     image:
@@ -30,6 +33,7 @@ const trips = [
     destination: "Surf Week Fuerteventura",
     dates: "30 dicembre 2026–5 gennaio 2027",
     status: "Iscrizioni aperte",
+    href: "/Viaggi/Fuerteventura",
     description:
       "Un Capodanno tra oceano, surf, surf skate, dry surf, trekking, natura e nuove amicizie queer.",
     image:
@@ -39,6 +43,7 @@ const trips = [
     destination: "Marocco",
     dates: "28 marzo–4 aprile 2027",
     status: "Lavori in corso",
+    href: "/Viaggi/Marocco",
     description:
       "Pasqua in Marocco, tra oceano e natura: surf, passeggiate a cavallo, medine, luoghi autentici e sapori tipici marocchini.",
     image:
