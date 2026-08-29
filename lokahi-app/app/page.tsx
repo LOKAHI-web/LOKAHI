@@ -114,7 +114,7 @@ const trips = [
     status: "Prossimamente",
     href: "/Viaggi/Crociera-over-40",
     description:
-      "Una crociera sui Fiordi Norvegesi dedicata alle donne queer dai 40 anni in su, tra leggerezza e connessioni autentiche.",
+      "Una crociera sui Fiordi Norvegesi dedicata alle donne queer dai 40 anni in su.",
     image:
       "https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&w=1400&q=85",
   },
