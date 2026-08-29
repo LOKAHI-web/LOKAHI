@@ -49,7 +49,77 @@ const trips = [
     image:
       "https://images.unsplash.com/photo-1489493585363-d69421e0edd3?auto=format&fit=crop&w=1400&q=85",
   },
+  {
+    destination: "Thailandia",
+    dates: "Febbraio 2027",
+    status: "Prossimamente",
+    href: "/Viaggi/Thailandia",
+    description:
+      "Un viaggio tra isole tropicali, templi, natura, sapori locali e nuove amicizie queer.",
+    image:
+      "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=1400&q=85",
+  },
+  {
+    destination: "Giappone",
+    dates: "Fine ottobre 2027",
+    status: "Prossimamente",
+    href: "/Viaggi/Giappone",
+    description:
+      "Tradizioni, città sorprendenti, colori d’autunno e un viaggio di gruppo indimenticabile.",
+    image:
+      "https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=1400&q=85",
+  },
+  {
+    destination: "Islanda",
+    dates: "Novembre 2027",
+    status: "Prossimamente",
+    href: "/Viaggi/Islanda-2027",
+    description:
+      "Alla ricerca dell’aurora boreale, tra paesaggi immensi, natura selvaggia e meraviglie di ghiaccio.",
+    image:
+      "https://images.unsplash.com/photo-1529963183134-61a90db47eaf?auto=format&fit=crop&w=1400&q=85",
+  },
+  {
+    destination: "Sardegna in camper",
+    dates: "Luglio 2027",
+    status: "Prossimamente",
+    href: "/Viaggi/Sardegna-camper",
+    description:
+      "Un’avventura in camper tra spiagge meravigliose, natura, libertà e nuove amicizie queer.",
+    image:
+      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=85",
+  },
+  {
+    destination: "Puglia",
+    dates: "Estate 2027",
+    status: "Prossimamente",
+    href: "/Viaggi/Puglia",
+    description:
+      "Mare, borghi, sapori autentici e giornate da vivere insieme nel cuore della Puglia.",
+    image:
+      "https://images.unsplash.com/photo-1602002418082-a4443e081dd1?auto=format&fit=crop&w=1400&q=85",
+  },
+  {
+    destination: "Sicilia",
+    dates: "Estate 2027",
+    status: "Prossimamente",
+    href: "/Viaggi/Sicilia-2027",
+    description:
+      "Un nuovo viaggio tra mare, natura, borghi e tutto il sapore autentico della Sicilia.",
+    image: "/sicilia-cannoli.jpg",
+  },
+  {
+    destination: "Crociera Fiordi Norvegesi",
+    dates: "2027",
+    status: "Prossimamente",
+    href: "/Viaggi/Crociera-over-40",
+    description:
+      "Una crociera dedicata alle donne queer dai 40 anni in su, tra nuove destinazioni, leggerezza e connessioni autentiche.",
+    image:
+      "https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&w=1400&q=85",
+  },
 ];
+
 
 const values = [
   {
