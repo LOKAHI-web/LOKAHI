@@ -3,7 +3,7 @@ const trips = [
     destination: "Messico",
     dates: "25 ottobre–3 novembre 2026",
     status: "Ultimi 2 posti",
-    href: "/Viaggi/Messico",
+    href: "https://tempodiviaggi.it/trip-tickets/2026-messico-25-ottobre/",
     description:
       "Un viaggio nel cuore del Messico durante il Día de los Muertos, tra colori, tradizioni e celebrazioni indimenticabili.",
     image:
@@ -119,7 +119,6 @@ const trips = [
       "https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&w=1400&q=85",
   },
 ];
-
 
 const values = [
   {
@@ -292,7 +291,7 @@ export default function Home() {
                     {trip.description}
                   </p>
                   <a
-                    href={trip.href ?? "#viaggi"}
+                    href={trip.href}
                     className="mt-6 inline-block font-bold text-[#d96e24]"
                   >
                     Scopri il viaggio →
