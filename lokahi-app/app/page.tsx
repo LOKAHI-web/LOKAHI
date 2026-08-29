@@ -109,12 +109,12 @@ const trips = [
     image: "/sicilia-cannoli.jpg",
   },
   {
-    destination: "Crociera Over 40 - Fiordi Norvegesi",
+    destination: "Crociera Over 40",
     dates: "2027",
     status: "Prossimamente",
     href: "/Viaggi/Crociera-over-40",
     description:
-      "Una crociera dedicata alle donne queer dai 40 anni in su, tra nuove destinazioni, leggerezza e connessioni autentiche.",
+      "Una crociera sui Fiordi Norvegesi dedicata alle donne queer dai 40 anni in su, tra nuove destinazioni, leggerezza e connessioni autentiche.",
     image:
       "https://images.unsplash.com/photo-1548574505-5e239809ee19?auto=format&fit=crop&w=1400&q=85",
   },
