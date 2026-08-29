@@ -33,7 +33,7 @@ const trips = [
     destination: "Surf Week Fuerteventura",
     dates: "30 dicembre 2026–5 gennaio 2027",
     status: "Iscrizioni aperte",
-    href: "/Viaggi/Fuerteventura",
+    href: "https://booking.dreamwavesurf.com/it/product/lokahi-surf-week-fuerteventura/accommodation",
     description:
       "Un Capodanno tra oceano, surf, surf skate, dry surf, trekking, natura e nuove amicizie queer.",
     image:
