@@ -109,7 +109,7 @@ const trips = [
     image: "/sicilia-cannoli.jpg",
   },
   {
-    destination: "Crociera Fiordi Norvegesi",
+    destination: "Crociera Over 40 - Fiordi Norvegesi",
     dates: "2027",
     status: "Prossimamente",
     href: "/Viaggi/Crociera-over-40",
