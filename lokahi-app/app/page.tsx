@@ -2,7 +2,7 @@ const trips = [
   {
     destination: "Messico",
     dates: "25 ottobre–3 novembre 2026",
-    status: "Ultimi 2 posti",
+    status: "Ultimo Posto",
     href: "https://tempodiviaggi.it/trip-tickets/2026-messico-25-ottobre/",
     description:
       "Un viaggio nel cuore del Messico durante il Día de los Muertos, tra colori, tradizioni e celebrazioni indimenticabili.",
