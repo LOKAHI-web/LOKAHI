@@ -362,7 +362,10 @@ export default function MercatiniNatalePage() {
                                 </span>
                             </div>
                         </div>
-
+                        <div className="mt-6 inline-flex items-center gap-3 rounded-full bg-white/60 px-5 py-3 font-bold text-[#402216]">
+                            <span className="text-xl">✓</span>
+                            <span>Possibilità di pagamento a rate</span>
+                        </div>
                         <div className="mx-auto mt-9 max-w-2xl rounded-[24px] border border-[#ef8b43]/40 bg-white/10 p-6 backdrop-blur-sm">
                             <p className="text-xl font-bold text-[#ef8b43] md:text-2xl">
                                 Risparmia 90 €
