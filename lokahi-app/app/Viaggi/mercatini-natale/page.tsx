@@ -10,8 +10,8 @@ const programma = [
             "Per chi lo desidera, sarà possibile vivere l’esperienza della pista da slittino innevata e illuminata del Monte Cavallo: 10 chilometri di divertimento, panorami invernali e risate da condividere.",
             "Nel tardo pomeriggio partiremo verso Innsbruck, raggiungeremo il nostro hotel ed effettueremo il check-in.",
             "La giornata terminerà con una cena tipica inclusa in hotel, con menù fisso.",
+            "Chiacchiere, giochi e tante risate",
         ],
-        nota: "Lo slittino è un’attività facoltativa, con un costo indicativo di circa 30–40 € a persona da pagare in loco. L’esperienza dipenderà dalle condizioni della neve e dall’apertura degli impianti.",
     },
     {
         giorno: "7 dicembre",
@@ -22,6 +22,7 @@ const programma = [
             "Nel tardo pomeriggio torneremo in hotel per concederci un momento di benessere tra piscina coperta e sauna.",
             "Tra relax, chiacchiere e giochi pensati per conoscerci meglio, continueremo a creare connessioni e nuovi ricordi insieme.",
             "Concluderemo la giornata con una cena tipica inclusa in hotel, con menù fisso.",
+            "Chiacchiere, giochi e tante risate",
         ],
     },
     {
@@ -184,11 +185,7 @@ export default function MercatiniNatalePage() {
                                         ))}
                                     </ul>
 
-                                    {tappa.nota && (
-                                        <div className="mt-7 rounded-2xl bg-[#fff2e8] p-5 text-sm font-semibold leading-6 text-[#8c4b22]">
-                                            Informazione importante: {tappa.nota}
-                                        </div>
-                                    )}
+                                    
                                 </div>
                             </details>
                         ))}
