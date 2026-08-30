@@ -383,7 +383,7 @@ export default function MercatiniNatalePage() {
                             href="/#contatti"
                             className="mt-9 inline-flex rounded-full bg-[#ef8b43] px-9 py-4 text-lg font-bold text-[#402216] transition hover:scale-105 hover:bg-white"
                         >
-                            Prenota al prezzo speciale →
+                            Prenota qui →
                         </Link>
                     </div>
                 </div>
@@ -409,6 +409,6 @@ export default function MercatiniNatalePage() {
                     </Link>
                 </div>
             </section>
-        </main>
+        </main >
     );
 }
