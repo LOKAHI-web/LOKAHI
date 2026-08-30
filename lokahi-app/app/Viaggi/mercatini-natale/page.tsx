@@ -37,7 +37,8 @@ const programma = [
 ];
 
 const incluso = [
-  "Due notti in hotel 3 stelle.",
+  "Due notti in hotel 3 stelle, con sistemazione in camere doppie.",
+  "Tassa di soggiorno.",
   "Accesso alla piscina coperta e alla sauna dell’hotel.",
   "Due colazioni a buffet.",
   "Due cene tipiche in hotel con menù fisso.",
