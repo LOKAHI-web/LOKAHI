@@ -50,6 +50,7 @@ const nonIncluso = [
     "Pranzi.",
     "Bevande ed eventuali consumazioni extra.",
     "Servizio navetta di andata e ritorno con conducente: 50 € a persona, da pagare in loco.",
+    "La cassa comune da 30 €, viene utilizzata per coprire i costi di benzina, autostrada, parcheggi e vignetta autostradale Austriaca",
     "Esperienza facoltativa in slittino: costo indicativo di circa 30–40 € a persona, da pagare in loco.",
     "Tutto ciò che non è indicato nella sezione “Servizi inclusi”.",
 ];
@@ -372,12 +373,6 @@ export default function MercatiniNatalePage() {
                                 speciale. Dopo questa data il prezzo aumenterà.
                             </p>
                         </div>
-
-                        <p className="mx-auto mt-7 max-w-2xl text-xs leading-5 text-white/55">
-                            Il prezzo non comprende la navetta A/R da 50 €, la cassa comune
-                            da 25 € e l’eventuale esperienza facoltativa in slittino. Questi
-                            importi saranno versati separatamente in loco.
-                        </p>
 
                         <Link
                             href="/#contatti"
