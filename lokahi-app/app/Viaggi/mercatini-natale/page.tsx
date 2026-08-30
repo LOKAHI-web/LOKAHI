@@ -50,7 +50,7 @@ const nonIncluso = [
     "Pranzi.",
     "Bevande ed eventuali consumazioni extra.",
     "Servizio navetta di andata e ritorno con conducente: 50 € a persona, da pagare in loco.",
-    "La cassa comune da 30 €, viene utilizzata per coprire i costi di benzina, autostrada, parcheggi e vignetta autostradale Austriaca",
+    "La cassa comune da 30 €, viene utilizzata per coprire i costi di benzina, autostrada, parcheggi e vignetta autostradaleAustriaca",
     "Esperienza facoltativa in slittino: costo indicativo di circa 30–40 € a persona, da pagare in loco.",
     "Tutto ciò che non è indicato nella sezione “Servizi inclusi”.",
 ];
@@ -325,17 +325,17 @@ export default function MercatiniNatalePage() {
             </section>
 
             {/* PREZZO EARLY BIRD */}
-            <section className="px-4 pb-14 sm:px-6 md:px-12 lg:px-20">
-                <div className="relative mx-auto max-w-4xl overflow-hidden rounded-[26px] bg-[#ef8b43] px-5 py-10 text-center text-[#402216] shadow-[0_20px_60px_rgba(64,34,22,0.20)] sm:px-7 sm:py-12 md:rounded-[32px] md:px-12 md:py-16">
+            <section className="px-6 pb-20 md:px-12 lg:px-20">
+                <div className="relative mx-auto max-w-5xl overflow-hidden rounded-[36px] bg-[#402216] px-7 py-14 text-center text-white shadow-[0_25px_80px_rgba(64,34,22,0.25)] md:px-14 md:py-20">
                     <div className="absolute -right-16 -top-16 h-52 w-52 rounded-full bg-[#ef8b43]/20 blur-2xl" />
                     <div className="absolute -bottom-20 -left-16 h-56 w-56 rounded-full bg-[#ef8b43]/15 blur-3xl" />
 
                     <div className="relative z-10">
-                        <p className="inline-flex rounded-full bg-[#402216] px-4 py-2 text-sm font-bold uppercase tracking-[0.2em] text-[#402216]">
+                        <p className="inline-flex rounded-full bg-[#ef8b43] px-5 py-2 text-sm font-bold uppercase tracking-[0.2em] text-[#402216]">
                             Offerta Early Bird
                         </p>
 
-                        <h2 className="mx-auto mt-7 max-w-3xl text-3xl font-bold leading-tight tracking-[-0.05em] md:text-6xl">
+                        <h2 className="mx-auto mt-7 max-w-3xl text-4xl font-bold leading-tight tracking-[-0.05em] md:text-6xl">
                             Regalati un Natale da vivere insieme.
                         </h2>
 
