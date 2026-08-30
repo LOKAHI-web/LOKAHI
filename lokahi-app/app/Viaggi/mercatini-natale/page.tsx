@@ -325,53 +325,55 @@ export default function MercatiniNatalePage() {
             </section>
 
             {/* PREZZO EARLY BIRD */}
-            <section className="px-6 pb-20 md:px-12 lg:px-20">
-                <div className="relative mx-auto max-w-5xl overflow-hidden rounded-[36px] bg-[#402216] px-7 py-14 text-center text-white shadow-[0_25px_80px_rgba(64,34,22,0.25)] md:px-14 md:py-20">
-                    <div className="absolute -right-16 -top-16 h-52 w-52 rounded-full bg-[#ef8b43]/20 blur-2xl" />
-                    <div className="absolute -bottom-20 -left-16 h-56 w-56 rounded-full bg-[#ef8b43]/15 blur-3xl" />
+            <section className="px-4 pb-12 sm:px-6 md:px-12 lg:px-20">
+                <div className="relative mx-auto max-w-4xl overflow-hidden rounded-[28px] bg-[#402216] px-5 py-8 text-center text-white shadow-[0_20px_60px_rgba(64,34,22,0.22)] sm:px-7 sm:py-10 md:px-12 md:py-12">
+                    <div className="absolute -right-12 -top-12 h-40 w-40 rounded-full bg-[#ef8b43]/20 blur-2xl" />
+                    <div className="absolute -bottom-14 -left-12 h-44 w-44 rounded-full bg-[#ef8b43]/15 blur-3xl" />
 
                     <div className="relative z-10">
-                        <p className="inline-flex rounded-full bg-[#ef8b43] px-4 py-2 text-sm font-bold uppercase tracking-[0.2em] text-[#402216]">
+                        <p className="inline-flex rounded-full bg-[#ef8b43] px-4 py-2 text-xs font-bold uppercase tracking-[0.18em] text-[#402216] sm:text-sm">
                             Offerta Early Bird
                         </p>
 
-                        <h2 className="mx-auto mt-7 max-w-3xl text-3xl font-bold leading-tight tracking-[-0.05em] md:text-6xl">
+                        <h2 className="mx-auto mt-4 max-w-3xl text-2xl font-bold leading-tight tracking-[-0.05em] sm:text-3xl md:text-5xl">
                             Regalati un Natale da vivere insieme.
                         </h2>
 
-                        <div className="mt-10">
-                            <p className="text-lg font-semibold text-white/60">
+                        <div className="mt-5">
+                            <p className="text-sm font-semibold text-white/60">
                                 Prezzo originale
                             </p>
 
-                            <p className="mt-1 text-4xl font-bold text-white/50 line-through decoration-[#ef8b43] decoration-4 md:text-5xl">
+                            <p className="mt-1 text-3xl font-bold text-white/50 line-through decoration-[#ef8b43] decoration-2 md:text-4xl">
                                 599 €
                             </p>
 
-                            <p className="mt-6 text-sm font-bold uppercase tracking-[0.25em] text-[#ef8b43]">
+                            <p className="mt-3 text-xs font-bold uppercase tracking-[0.2em] text-[#ef8b43]">
                                 Prezzo riservato
                             </p>
 
-                            <div className="mt-2 flex items-end justify-center gap-3">
-                                <span className="text-7xl font-bold tracking-[-0.07em] md:text-9xl">
+                            <div className="mt-1 flex items-end justify-center gap-2">
+                                <span className="text-5xl font-bold tracking-[-0.07em] sm:text-6xl md:text-7xl">
                                     509 €
                                 </span>
 
-                                <span className="mb-3 text-lg font-semibold text-white/70">
+                                <span className="mb-2 text-sm font-semibold text-white/70 sm:text-base">
                                     a persona
                                 </span>
                             </div>
                         </div>
-                        <div className="mt-6 inline-flex items-center gap-3 rounded-full bg-white/60 px-5 py-3 font-bold text-[#402216]">
-                            <span className="text-xl">✓</span>
+
+                        <div className="mt-4 inline-flex items-center gap-2 rounded-full bg-white/60 px-4 py-2 text-sm font-bold text-[#402216]">
+                            <span>✓</span>
                             <span>Possibilità di pagamento a rate</span>
                         </div>
-                        <div className="mx-auto mt-9 max-w-2xl rounded-[24px] border border-[#ef8b43]/40 bg-white/10 p-6 backdrop-blur-sm">
-                            <p className="text-xl font-bold text-[#ef8b43] md:text-2xl">
+
+                        <div className="mx-auto mt-5 max-w-xl rounded-[18px] border border-[#ef8b43]/40 bg-white/10 px-4 py-3 backdrop-blur-sm">
+                            <p className="text-lg font-bold text-[#ef8b43] md:text-xl">
                                 Risparmia 90 €
                             </p>
 
-                            <p className="mt-2 leading-7 text-white/85">
+                            <p className="mt-1 text-sm leading-6 text-white/85">
                                 Prenota entro il 15 ottobre 2026 per approfittare del prezzo
                                 speciale. Dopo questa data il prezzo aumenterà.
                             </p>
@@ -379,14 +381,13 @@ export default function MercatiniNatalePage() {
 
                         <Link
                             href="/#contatti"
-                            className="mt-9 inline-flex rounded-full bg-[#ef8b43] px-9 py-4 text-lg font-bold text-[#402216] transition hover:scale-105 hover:bg-white"
+                            className="mt-6 inline-flex w-full items-center justify-center rounded-full bg-[#ef8b43] px-10 py-4 text-xl font-bold text-[#402216] shadow-[0_10px_30px_rgba(0,0,0,0.20)] transition hover:scale-105 hover:bg-white sm:w-auto"
                         >
                             Prenota qui →
                         </Link>
                     </div>
                 </div>
             </section>
-
 
             {/* CHIUSURA */}
             <section className="px-6 pb-20 md:px-12 lg:px-20">
