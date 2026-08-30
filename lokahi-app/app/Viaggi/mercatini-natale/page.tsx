@@ -331,11 +331,11 @@ export default function MercatiniNatalePage() {
                     <div className="absolute -bottom-20 -left-16 h-56 w-56 rounded-full bg-[#ef8b43]/15 blur-3xl" />
 
                     <div className="relative z-10">
-                        <p className="inline-flex rounded-full bg-[#ef8b43] px-5 py-2 text-sm font-bold uppercase tracking-[0.2em] text-[#402216]">
+                        <p className="inline-flex rounded-full bg-[#ef8b43] px-4 py-2 text-sm font-bold uppercase tracking-[0.2em] text-[#402216]">
                             Offerta Early Bird
                         </p>
 
-                        <h2 className="mx-auto mt-7 max-w-3xl text-4xl font-bold leading-tight tracking-[-0.05em] md:text-6xl">
+                        <h2 className="mx-auto mt-7 max-w-3xl text-3xl font-bold leading-tight tracking-[-0.05em] md:text-6xl">
                             Regalati un Natale da vivere insieme.
                         </h2>
 
