@@ -56,7 +56,7 @@ const nonIncluso = [
 
 const fermate = [
     {
-        luogo: "Casello autostradale di Forlì",
+        luogo: "Casello di Forlì",
         orario: "6:30",
     },
     {
