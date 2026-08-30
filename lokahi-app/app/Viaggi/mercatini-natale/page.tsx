@@ -401,7 +401,7 @@ export default function MercatiniNatalePage() {
                         href="/#contatti"
                         className="mt-9 inline-block rounded-full bg-[#402216] px-8 py-4 font-bold text-white transition hover:scale-105"
                     >
-                        Richiedi informazioni
+                        Prenota qui →
                     </Link>
                 </div>
             </section>
