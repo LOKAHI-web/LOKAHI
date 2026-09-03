@@ -80,7 +80,7 @@ export default function MercatiniNatalePage() {
         <main className="min-h-screen bg-[#fffaf5] text-[#402216]">
             {/* COPERTINA */}
             <section
-                className="relative flex min-h-[760px] items-center justify-center bg-cover bg-center px-6 py-28"
+                className="relative flex min-h-[760px] w-full items-center justify-center bg-[length:115%_115%] bg-center bg-no-repeat px-6 py-28"
                 style={{
                     backgroundImage: "url('/mercatini-natale.jpg')",
                 }}
