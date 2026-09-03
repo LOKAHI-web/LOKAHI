@@ -335,7 +335,7 @@ export default function MaroccoPage() {
           </p>
 
           <h2 className="mt-5 text-4xl font-bold leading-tight tracking-[-0.05em] md:text-6xl">
-            Otto giorni da ricordare.
+           Prenotabile a breve.
           </h2>
 
           <p className="mx-auto mt-6 max-w-2xl leading-8 text-white/70">
