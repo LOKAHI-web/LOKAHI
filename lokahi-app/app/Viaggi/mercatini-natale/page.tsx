@@ -150,26 +150,24 @@ export default function MercatiniNatalePage() {
                                 key={tappa.giorno}
                                 className="group overflow-hidden rounded-[28px] bg-white shadow-[0_18px_55px_rgba(64,34,22,0.10)]"
                             >
-                                <summary className="flex cursor-pointer list-none items-center justify-between gap-5 px-6 py-7 md:px-10 md:py-9">
-                                    <div className="flex items-center gap-5 md:gap-8">
-                                        <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-[#ef8b43] text-lg font-bold md:h-14 md:w-14">
-                                            {index + 1}
-                                        </span>
-
-                                        <div>
-                                            <p className="text-xs font-bold uppercase tracking-[0.25em] text-[#d96e24] md:text-sm">
-                                                {tappa.giorno}
-                                            </p>
-
-                                            <h3 className="mt-2 text-2xl font-bold tracking-[-0.03em] md:text-4xl">
-                                                {tappa.titolo}
-                                            </h3>
-                                        </div>
+                                <summary className="flex cursor-pointer list-none items-center gap-4 p-5 md:gap-7 md:p-8">
+                                    <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-[#ef8b43] text-lg font-bold text-[#402216] md:h-14 md:w-14">
+                                        {index + 1}
                                     </div>
 
-                                    <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-[#402216] text-2xl text-white transition group-open:rotate-45 md:h-14 md:w-14">
+                                    <div className="min-w-0 flex-1 text-left">
+                                        <p className="text-xs font-bold uppercase tracking-[0.2em] text-[#d96e24] md:text-sm">
+                                            {tappa.giorno}
+                                        </p>
+
+                                        <h3 className="mt-1 text-xl font-bold leading-tight md:text-3xl">
+                                            {tappa.titolo}
+                                        </h3>
+                                    </div>
+
+                                    <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-[#402216] text-2xl text-white transition group-open:rotate-45 group-open:bg-[#ef8b43] group-open:text-[#402216]">
                                         +
-                                    </span>
+                                    </div>
                                 </summary>
 
                                 <div className="border-t border-[#efe4dc] px-6 py-8 md:px-10">
@@ -382,7 +380,7 @@ export default function MercatiniNatalePage() {
                             rel="noopener noreferrer"
                             className="mt-6 inline-flex w-full items-center justify-center rounded-full bg-[#ef8b43] px-10 py-4 text-xl font-bold text-[#402216] shadow-[0_10px_30px_rgba(0,0,0,0.20)] transition hover:scale-105 hover:bg-white sm:w-auto"
                         >
-                            Prenota qui e blocca il tuo posto con soli 309 € 
+                            Prenota qui e blocca il tuo posto con soli 309 €
                         </Link>
                     </div>
                 </div>
