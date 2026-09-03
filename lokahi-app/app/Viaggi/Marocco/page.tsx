@@ -339,8 +339,7 @@ export default function MaroccoPage() {
           </h2>
 
           <p className="mx-auto mt-6 max-w-2xl leading-8 text-white/70">
-            Le informazioni relative a prezzo, servizi inclusi, attività
-            facoltative e prenotazioni saranno disponibili prossimamente.
+           Il viaggio non è ancora prenotabile, ma puoi già scoprire il programma giorno per giorno. Le prenotazioni apriranno tra qualche settimana: continua a seguirci per non perdere l’apertura!
           </p>
 
           <Link

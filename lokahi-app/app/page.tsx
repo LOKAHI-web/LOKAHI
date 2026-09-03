@@ -42,7 +42,7 @@ const trips = [
   {
     destination: "Marocco",
     dates: "28 marzo–4 aprile 2027",
-    status: "Lavori in corso",
+    status: "Prenotabile a breve",
     href: "/Viaggi/Marocco",
     description:
       "Pasqua in Marocco, tra oceano, natura e sapori tipici marocchini; Parti con la tua amica Queer o Etero",
