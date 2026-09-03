@@ -185,7 +185,7 @@ export default function MaroccoPage() {
                     className="absolute inset-0 bg-cover bg-center"
                     style={{
                         backgroundImage:
-                            "url('https://d2xsxph8kpxj0f.cloudfront.net/310519663719873844/346TY2jt9CcmvAH4BcFRj2/hero-taghazout-sunset-ZjNFHUyxGGt9HdKZpckjzh.webp')",
+                            "url('https://images.unsplash.com/photo-1650709137023-399fe2326bd7?auto=format&fit=crop&w=2000&q=85')",
                     }}
                 />
 
