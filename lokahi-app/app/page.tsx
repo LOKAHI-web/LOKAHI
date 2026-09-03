@@ -45,7 +45,7 @@ const trips = [
     status: "Lavori in corso",
     href: "/Viaggi/Marocco",
     description:
-      "Pasqua in Marocco, tra oceano e natura: surf, passeggiate a cavallo, medine, luoghi autentici e sapori tipici marocchini.",
+      "Pasqua in Marocco, tra oceano, natura e sapori tipici marocchini; Parti con la tua amica Queer o Etero",
     image:
       "https://images.unsplash.com/photo-1489493585363-d69421e0edd3?auto=format&fit=crop&w=1400&q=85",
   },
