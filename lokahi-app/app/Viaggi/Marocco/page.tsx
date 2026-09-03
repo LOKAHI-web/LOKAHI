@@ -191,8 +191,6 @@ export default function MaroccoPage() {
 
                 <div className="absolute inset-0 bg-gradient-to-t from-[#29150e] via-[#402216]/55 to-[#402216]/20" />
 
-                <div className="absolute -right-16 top-20 h-56 w-56 rounded-full border border-white/20" />
-                <div className="absolute -right-8 top-28 h-40 w-40 rounded-full border border-white/20" />
 
                 <div className="relative z-10 mx-auto w-full max-w-6xl px-6 pb-14 pt-36 text-white md:px-12 md:pb-20">
                     <Link
