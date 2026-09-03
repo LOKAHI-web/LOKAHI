@@ -382,7 +382,7 @@ export default function MercatiniNatalePage() {
                             rel="noopener noreferrer"
                             className="mt-6 inline-flex w-full items-center justify-center rounded-full bg-[#ef8b43] px-10 py-4 text-xl font-bold text-[#402216] shadow-[0_10px_30px_rgba(0,0,0,0.20)] transition hover:scale-105 hover:bg-white sm:w-auto"
                         >
-                            Prenota qui e blocca il tuo posto con soli 309 € →
+                            Prenota qui e blocca il tuo posto con soli 309 € 
                         </Link>
                     </div>
                 </div>
