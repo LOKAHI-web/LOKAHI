@@ -1,7 +1,7 @@
 const trips = [
   {
     destination: "Messico",
-    dates: "25 ottobre–3 novembre 2026",
+    dates: "25 ottobre – 3 novembre 2026",
     status: "Ultimo Posto",
     href: "https://tempodiviaggi.it/trip-tickets/2026-messico-25-ottobre/",
     description:
@@ -11,7 +11,7 @@ const trips = [
   },
   {
     destination: "Islanda",
-    dates: "22–29 novembre 2026",
+    dates: "22 novembre– 29 novembre 2026",
     status: "Sold out",
     href: "/Viaggi/Islanda",
     description:
@@ -21,7 +21,7 @@ const trips = [
   },
   {
     destination: "Mercatini di Natale",
-    dates: "6–8 dicembre 2026",
+    dates: "6 dicembre – 8 dicembre 2026",
     status: "Iscrizioni aperte",
     href: "/Viaggi/mercatini-natale",
     description:
@@ -31,7 +31,7 @@ const trips = [
   },
   {
     destination: "Surf Week Fuerteventura",
-    dates: "30 dicembre 2026–5 gennaio 2027",
+    dates: "30 dicembre 2026 – 5 gennaio 2027",
     status: "Iscrizioni aperte",
     href: "https://booking.dreamwavesurf.com/it/product/lokahi-surf-week-fuerteventura/accommodation",
     description:
@@ -40,18 +40,8 @@ const trips = [
       "https://images.unsplash.com/photo-1502680390469-be75c86b636f?auto=format&fit=crop&w=1400&q=85",
   },
   {
-    destination: "Marocco",
-    dates: "28 marzo–4 aprile 2027",
-    status: "Prenotabile a breve",
-    href: "/Viaggi/Marocco",
-    description:
-      "Pasqua in Marocco, tra oceano, natura e sapori tipici marocchini; Parti con la tua amica Queer o Etero",
-    image:
-      "https://images.unsplash.com/photo-1489493585363-d69421e0edd3?auto=format&fit=crop&w=1400&q=85",
-  },
-  {
     destination: "Thailandia",
-    dates: "Febbraio 2027",
+    dates: "27 febbraio - 9 marzo 2027",
     status: "Prossimamente",
     href: "/Viaggi/Thailandia",
     description:
@@ -59,23 +49,14 @@ const trips = [
     image: "/thailandia.jpg",
   },
   {
-    destination: "Giappone",
-    dates: "Fine ottobre 2027",
-    status: "Prossimamente",
-    href: "/Viaggi/Giappone",
+    destination: "Marocco",
+    dates: "28 marzo – 4 aprile 2027",
+    status: "Prenotabile a breve",
+    href: "/Viaggi/Marocco",
     description:
-      "Tradizioni, città sorprendenti, colori d’autunno e un viaggio di gruppo indimenticabile.",
+      "Pasqua in Marocco, tra oceano, natura e sapori tipici marocchini; Parti con la tua amica Queer o Etero",
     image:
-      "https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=1400&q=85",
-  },
-  {
-    destination: "Islanda",
-    dates: "Novembre 2027",
-    status: "Prossimamente",
-    href: "/Viaggi/Islanda-2027",
-    description:
-      "Alla ricerca dell’aurora boreale, tra paesaggi immensi, natura selvaggia e meraviglie di ghiaccio.",
-    image: "/islanda-2027.jpg",
+      "https://images.unsplash.com/photo-1489493585363-d69421e0edd3?auto=format&fit=crop&w=1400&q=85",
   },
   {
     destination: "Sardegna in camper",
@@ -103,6 +84,25 @@ const trips = [
     description:
       "Un nuovo viaggio tra mare, natura, borghi e tutto il sapore autentico della Sicilia.",
     image: "/sicilia-cannoli.jpg",
+  },
+  {
+    destination: "Giappone",
+    dates: "Fine ottobre 2027",
+    status: "Prossimamente",
+    href: "/Viaggi/Giappone",
+    description:
+      "Tradizioni, città sorprendenti, colori d’autunno e un viaggio di gruppo indimenticabile.",
+    image:
+      "https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=1400&q=85",
+  },
+  {
+    destination: "Islanda",
+    dates: "Novembre 2027",
+    status: "Prossimamente",
+    href: "/Viaggi/Islanda-2027",
+    description:
+      "Alla ricerca dell’aurora boreale, tra paesaggi immensi, natura selvaggia e meraviglie di ghiaccio.",
+    image: "/islanda-2027.jpg",
   },
   {
     destination: "Crociera Over 40",
