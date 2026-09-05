@@ -22,7 +22,7 @@ const programma: Giorno[] = [
         attivita: [
             { testo: "Arrivo in Marocco" },
             { testo: "Trasferimento e sistemazione nella Surf House" },
-            { testo: "Cena nella Surf House", stato: "incluso" },
+            { testo: "Cena nella Surf House" },
             { testo: "Giochi rompi ghiacchio" },
         ],
     },
@@ -32,15 +32,15 @@ const programma: Giorno[] = [
         descrizione:
             "La nostra prima giornata di surf, tra oceano, relax e un’esperienza dedicata al benessere.",
         attivita: [
-            { orario: "08:00", testo: "Colazione", stato: "incluso" },
-            { orario: "09:00", testo: "Lezione e sessione di surf", stato: "incluso" },
-            { testo: "Pranzo in spiaggia", stato: "incluso" },
+            { orario: "08:00", testo: "Colazione" },
+            { orario: "09:00", testo: "Lezione e sessione di surf" },
+            { testo: "Pranzo in spiaggia" },
             { orario: "14:45", testo: "Rientro nella Surf House" },
             { testo: "Tempo per doccia e relax" },
             {
-                testo: "Esperienza yoga", stato: "incluso"
+                testo: "Esperienza yoga",
             },
-            { testo: "Cena nella Surf House", stato: "incluso" },
+            { testo: "Cena nella Surf House", },
         ],
     },
     {
@@ -49,17 +49,16 @@ const programma: Giorno[] = [
         descrizione:
             "Una giornata tra onde e tradizioni locali, culminata in un’esperienza di cucina marocchina.",
         attivita: [
-            { orario: "08:00", testo: "Colazione", stato: "incluso" },
-            { orario: "09:00", testo: "Lezione e sessione di surf", stato: "incluso" },
-            { testo: "Pranzo in spiaggia", stato: "incluso" },
+            { orario: "08:00", testo: "Colazione" },
+            { orario: "09:00", testo: "Lezione e sessione di surf" },
+            { testo: "Pranzo in spiaggia" },
             { orario: "14:45", testo: "Rientro nella Surf House" },
             { testo: "Tempo per doccia e relax" },
             {
                 testo:
                     "Visita al mercato e spesa insieme al cuoco, seguite da una cooking class a Tamraght",
-                stato: "incluso",
             },
-            { testo: "Cena", stato: "incluso" },
+            { testo: "Cena" },
         ],
     },
     {
@@ -68,8 +67,8 @@ const programma: Giorno[] = [
         descrizione:
             "Lasciamo la costa per scoprire paesaggi naturali, prodotti locali e l’atmosfera autentica del souk.",
         attivita: [
-            { orario: "08:00", testo: "Colazione", stato: "incluso" },
-            { orario: "09:00", testo: "Partenza per Paradise Valley", stato: "incluso" },
+            { orario: "08:00", testo: "Colazione" },
+            { orario: "09:00", testo: "Partenza per Paradise Valley" },
             {
                 orario: "10:00",
                 testo: "Sosta presso una cooperativa di prodotti locali",
@@ -78,11 +77,11 @@ const programma: Giorno[] = [
                 testo:
                     "Visita e tempo libero a Paradise Valley, un’oasi naturale tra montagne, palme e piscine naturali, perfetta per passeggiare, rilassarsi e scoprire il lato più autentico del Marocco.",
             },
-            { testo: "Pranzo", stato: "incluso" },
-            { orario: "14:30", testo: "Partenza per Souk El Had", stato: "incluso" },
+            { testo: "Pranzo", },
+            { orario: "14:30", testo: "Partenza per Souk El Had" },
             { testo: "Visita al Souk El Had (Mercato piu grande del marocco)" },
             { orario: "18:00", testo: "Rientro nella Surf House" },
-            { testo: "Cena", stato: "incluso" },
+            { testo: "Cena" },
         ],
     },
     {
@@ -91,17 +90,17 @@ const programma: Giorno[] = [
         descrizione:
             "Una giornata avventurosa dedicata al surf, ai paesaggi oceanici e alla magia delle dune.",
         attivita: [
-            { orario: "08:00", testo: "Colazione", stato: "incluso" },
+            { orario: "08:00", testo: "Colazione" },
             { orario: "09:00", testo: "Partenza dalla Surf House" },
             { testo: "Surf a Imsouane" },
             { testo: "Pranzo al mercato", stato: "non-incluso" },
             {
                 orario: "16:00",
                 testo:
-                    "Sandboarding tra le dune: saliremo su una tavola simile a quella da snowboard e scivoleremo sulla sabbia, vivendo un’esperienza divertente e indimenticabile.", stato: "incluso",
+                    "Sandboarding tra le dune: saliremo su una tavola simile a quella da snowboard e scivoleremo sulla sabbia, vivendo un’esperienza divertente e indimenticabile.",
             },
             { testo: "Rientro nella Surf House" },
-            { testo: "Cena", stato: "incluso" },
+            { testo: "Cena" },
         ],
     },
     {
@@ -110,9 +109,9 @@ const programma: Giorno[] = [
         descrizione:
             "Dopo una nuova sessione di surf, raggiungeremo Taghazout per vivere insieme il tramonto e la serata.",
         attivita: [
-            { orario: "08:00", testo: "Colazione", stato: "incluso" },
-            { orario: "09:00", testo: "Lezione e sessione di surf", stato: "incluso" },
-            { testo: "Pranzo in spiaggia", stato: "incluso" },
+            { orario: "08:00", testo: "Colazione" },
+            { orario: "09:00", testo: "Lezione e sessione di surf" },
+            { testo: "Pranzo in spiaggia" },
             { orario: "15:00", testo: "Rientro nella Surf House" },
             { testo: "Tempo per doccia e relax" },
             { orario: "17:00", testo: "Partenza per Taghazout" },
@@ -127,9 +126,9 @@ const programma: Giorno[] = [
         descrizione:
             "L’ultima giornata piena sarà dedicata al surf, alle esperienze marocchine e a una serata speciale insieme.",
         attivita: [
-            { orario: "09:00", testo: "Colazione", stato: "incluso" },
-            { orario: "10:00", testo: "Lezione e sessione di surf", stato: "incluso" },
-            { testo: "Pranzo in spiaggia", stato: "incluso" },
+            { orario: "09:00", testo: "Colazione" },
+            { orario: "10:00", testo: "Lezione e sessione di surf" },
+            { testo: "Pranzo in spiaggia" },
             { orario: "15:30", testo: "Fine del surf e rientro" },
             {
                 orario: "19:00",
@@ -137,8 +136,8 @@ const programma: Giorno[] = [
                     "Possibilità di scegliere un’attività extra tra passeggiata a cavallo, hammam o henna experience",
                 stato: "facoltativo",
             },
-            { testo: "Cena BBQ", stato: "incluso" },
-            { testo: "Musica e serata finale insieme" },
+            { testo: "Cena BBQ" },
+            { testo: "Musica e serata finale insieme" }
         ],
     },
     {
@@ -147,8 +146,8 @@ const programma: Giorno[] = [
         descrizione:
             "Un’ultima colazione insieme prima di salutare il Marocco e portare a casa tutti i ricordi del viaggio.",
         attivita: [
-            { testo: "Colazione", stato: "incluso" },
-            { testo: "Check-out e partenza" },
+            { testo: "Colazione" },
+            { testo: "Check-out e trasferimento per l'aereportp" },
         ],
     },
 ];
@@ -367,7 +366,7 @@ export default function MaroccoPage() {
                                     "Visita alla cooperativa di prodotti locali e al Souk El Had",
                                     "Esperienza di sandboarding sulle dune",
                                     "Tutti i trasferimenti previsti dal programma",
-                                    "Coordinatrice presente durante tutto il viaggio",
+                                    "Coordinatrici presente durante tutto il viaggio",
                                 ].map((servizio) => (
                                     <li key={servizio} className="flex items-start gap-3">
                                         <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-[#402216]" />
