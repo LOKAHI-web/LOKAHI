@@ -62,7 +62,7 @@ const fermate = [
         orario: "6:30",
     },
     {
-        luogo: "Casello di Bologna",
+        luogo: "Casello di Bologna o Aereporto di bologna",
         orario: "7:30",
     },
     {

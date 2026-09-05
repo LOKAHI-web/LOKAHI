@@ -331,11 +331,12 @@ export default function MaroccoPage() {
                     </div>
                 </div>
             </section>
+
             {/* SERVIZI INCLUSI E NON INCLUSI */}
-            <section className="px-6 py-20 md:px-12 lg:px-20">
+            <section className="bg-[#402216] px-6 py-20 text-white md:px-12 lg:px-20 lg:py-28">
                 <div className="mx-auto max-w-6xl">
-                    <p className="text-sm font-bold uppercase tracking-[0.3em] text-[#d96e24]">
-                        Tutto ciò che devi sapere
+                    <p className="text-sm font-bold uppercase tracking-[0.3em] text-[#ef8b43]">
+                        Informazioni utili
                     </p>
 
                     <h2 className="mt-5 max-w-4xl text-4xl font-bold leading-tight tracking-[-0.05em] md:text-7xl">
@@ -343,85 +344,65 @@ export default function MaroccoPage() {
                     </h2>
 
                     <div className="mt-12 grid gap-6 lg:grid-cols-2">
-                        {/* INCLUSO */}
-                        <div className="rounded-[32px] bg-[#ef8b43] p-7 md:p-10">
-                            <p className="text-sm font-bold uppercase tracking-[0.25em]">
-                                Servizi inclusi
-                            </p>
+                        {/* SERVIZI INCLUSI */}
+                        <div className="rounded-[32px] bg-[#ef8b43] p-7 text-[#402216] md:p-10">
+                            <div className="flex items-center gap-4">
+                                <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-[#402216] text-xl font-bold text-white">
+                                    ✓
+                                </span>
 
-                            <h3 className="mt-4 text-3xl font-bold">
-                                Pensiamo noi a tutto.
-                            </h3>
+                                <h3 className="text-3xl font-bold">
+                                    Servizi inclusi
+                                </h3>
+                            </div>
 
-                            <ul className="mt-8 space-y-4 leading-7">
+                            <ul className="mt-9 space-y-5 leading-7">
                                 {[
                                     "7 notti nella Surf House",
-                                    "7 colazioni",
-                                    "5 pranzi, compresi i pranzi in spiaggia",
-                                    "6 cene, compresa la cena BBQ finale",
-                                    "Lezioni e sessioni di surf",
-                                    "Tavola da surf e attrezzatura necessaria",
+                                    "7 colazioni, 5 pranzi e 6 cene",
+                                    "6 lezioni e sessioni di surf con tutta l’attrezzatura necessaria",
                                     "Esperienza yoga",
                                     "Visita al mercato e cooking class a Tamraght",
                                     "Escursione a Paradise Valley",
-                                    "Visita alla cooperativa di prodotti locali",
-                                    "Visita al Souk El Had",
-                                    "Giornata di surf a Imsouane",
+                                    "Visita alla cooperativa di prodotti locali e al Souk El Had",
                                     "Esperienza di sandboarding sulle dune",
-                                    "Escursione a Taghazout e tramonto allo Skate Park",
-                                    "Un’attività a scelta tra passeggiata a cavallo, hammam o henna experience",
                                     "Tutti i trasferimenti previsti dal programma",
-                                    "Attività di gruppo e giochi rompighiaccio",
                                     "Coordinatrice presente durante tutto il viaggio",
                                 ].map((servizio) => (
                                     <li key={servizio} className="flex items-start gap-3">
-                                        <span className="mt-1 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#402216] text-sm text-white">
-                                            ✓
-                                        </span>
+                                        <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-[#402216]" />
                                         <span>{servizio}</span>
                                     </li>
                                 ))}
                             </ul>
                         </div>
 
-                        {/* NON INCLUSO */}
-                        <div className="rounded-[32px] bg-[#402216] p-7 text-white md:p-10">
-                            <p className="text-sm font-bold uppercase tracking-[0.25em] text-[#ef8b43]">
-                                Servizi non inclusi
-                            </p>
+                        {/* SERVIZI NON INCLUSI */}
+                        <div className="rounded-[32px] border border-white/20 bg-[#5a372a] p-7 text-white md:p-10">
+                            <div className="flex items-center gap-4">
+                                <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-white text-xl font-bold text-[#402216]">
+                                    ×
+                                </span>
 
-                            <h3 className="mt-4 text-3xl font-bold">
-                                Da organizzare separatamente.
-                            </h3>
+                                <h3 className="text-3xl font-bold">
+                                    Servizi non inclusi
+                                </h3>
+                            </div>
 
-                            <ul className="mt-8 space-y-5 leading-7 text-white/85">
+                            <ul className="mt-9 space-y-5 leading-7 text-white/80">
                                 {[
                                     "Volo di andata e ritorno per il Marocco",
-                                    "Pranzo al mercato durante la giornata a Imsouane",
+                                    "Pranzo al mercato del pesce durante la giornata a Imsouane",
                                     "Cena con musica durante la serata a Taghazout",
-                                    "Spese personali e tutto ciò che non è espressamente indicato nei servizi inclusi",
                                     "Attività extra facoltative: passeggiata a cavallo, hammam o henna experience",
+                                    "Spese personali e tutto ciò che non è indicato nei servizi inclusi",
                                 ].map((servizio) => (
                                     <li key={servizio} className="flex items-start gap-3">
-                                        <span className="mt-1 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-white/10 text-sm text-[#ef8b43]">
-                                            ×
-                                        </span>
+                                        <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-[#ef8b43]" />
                                         <span>{servizio}</span>
                                     </li>
                                 ))}
                             </ul>
-
-                            <div className="mt-10 rounded-[24px] border border-white/15 bg-white/5 p-6">
-                                <p className="font-bold text-[#ef8b43]">
-                                    In breve
-                                </p>
-
-                                <p className="mt-2 leading-7 text-white/70">
-                                    Una volta arrivate in Marocco, tutti i trasferimenti e
-                                    tutte le esperienze previste dal programma saranno
-                                    organizzati per il gruppo.
-                                </p>
-                            </div>
                         </div>
                     </div>
                 </div>
