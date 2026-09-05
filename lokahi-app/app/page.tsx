@@ -80,7 +80,7 @@ const trips = [
     destination: "Sicilia",
     dates: "Estate 2027",
     status: "Prossimamente",
-    href: "/Viaggi/Sicilia-2027",
+    href: "/Viaggi/Sicilia",
     description:
       "Un nuovo viaggio tra mare, natura, borghi e tutto il sapore autentico della Sicilia.",
     image: "/sicilia-cannoli.jpg",
