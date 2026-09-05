@@ -244,7 +244,7 @@ export default function MercatiniNatalePage() {
                                         key={servizio}
                                         className="flex gap-3 leading-7 text-[#402216]"
                                     >
-                                        <span className="font-bold text-[#d96e24]">•</span>
+                                       <span className="font-bold text-[#402216]">•</span>
                                         <span>{servizio}</span>
                                     </li>
                                 ))}
