@@ -11,7 +11,7 @@ const trips = [
   },
   {
     destination: "Islanda",
-    dates: "22 novembre– 29 novembre 2026",
+    dates: "22 novembre – 29 novembre 2026",
     status: "Sold out",
     href: "/Viaggi/Islanda",
     description:
