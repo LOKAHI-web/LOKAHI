@@ -264,16 +264,19 @@ export default function Home() {
 
           <div className="grid gap-6 lg:grid-cols-3">
             {trips.map((trip) => (
-              <article
-                key={trip.destination}
-                className="overflow-hidden rounded-[30px] bg-white shadow-[0_24px_70px_rgba(42,30,19,.14)]"
+              <a
+                key={`${trip.destination}-${trip.dates}`}
+                href={trip.href}
+                className="group block overflow-hidden rounded-[30px] bg-white shadow-[0_24px_70px_rgba(42,30,19,.14)] transition duration-300 hover:-translate-y-2 hover:shadow-[0_30px_90px_rgba(42,30,19,.22)]"
               >
                 <div
-                  className="relative min-h-[230px] bg-cover bg-center sm:min-h-[300px] lg:min-h-[340px]"
+                  className="relative min-h-[230px] bg-cover bg-center transition duration-700 sm:min-h-[300px] lg:min-h-[340px]"
                   style={{
                     backgroundImage: `url('${trip.image}')`,
                     backgroundSize:
-                      trip.destination === "Mercatini di Natale" ? "108%" : "cover",
+                      trip.destination === "Mercatini di Natale"
+                        ? "108%"
+                        : "cover",
                     backgroundRepeat: "no-repeat",
                     backgroundPosition: "center",
                   }}
@@ -284,21 +287,23 @@ export default function Home() {
                 </div>
 
                 <div className="p-5 sm:p-7">
-                  <p className="text-sm text-[#77716b]">{trip.dates}</p>
+                  <p className="text-sm text-[#77716b]">
+                    {trip.dates}
+                  </p>
+
                   <h3 className="mt-3 text-3xl font-bold tracking-[-0.04em]">
                     {trip.destination}
                   </h3>
+
                   <p className="mt-3 min-h-20 leading-7 text-[#6d6964]">
                     {trip.description}
                   </p>
-                  <a
-                    href={trip.href}
-                    className="mt-6 inline-block font-bold text-[#d96e24]"
-                  >
+
+                  <span className="mt-6 inline-block font-bold text-[#d96e24]">
                     Scopri il viaggio →
-                  </a>
+                  </span>
                 </div>
-              </article>
+              </a>
             ))}
           </div>
         </div>
