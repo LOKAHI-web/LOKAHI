@@ -380,7 +380,7 @@ export default function MercatiniNatalePage() {
                             rel="noopener noreferrer"
                             className="mt-6 inline-flex w-full items-center justify-center rounded-full bg-[#ef8b43] px-10 py-4 text-xl font-bold text-[#402216] shadow-[0_10px_30px_rgba(0,0,0,0.20)] transition hover:scale-105 hover:bg-white sm:w-auto"
                         >
-                            Prenota qui e blocca il tuo posto con soli 309 €
+                            Clicca qui per prenota e bloccare il tuo posto con soli 309 €
                         </Link>
                     </div>
                 </div>
@@ -396,15 +396,10 @@ export default function MercatiniNatalePage() {
                     <h2 className="mx-auto mt-5 max-w-3xl text-4xl font-bold leading-tight tracking-[-0.05em] md:text-6xl">
                         Il Natale è ancora più bello quando lo viviamo insieme.
                     </h2>
-
-                    <Link
-                        href="/#contatti"
-                        className="mt-9 inline-block rounded-full bg-[#402216] px-8 py-4 font-bold text-white transition hover:scale-105"
-                    >
-                        Prenota qui →
-                    </Link>
                 </div>
             </section>
+
+            {/* PULSANTE FISSO */}
             <a
                 href="https://docs.google.com/forms/d/e/1FAIpQLSc-PXvJPfNgXID4ixIXP8CH6MNm1skbw2rvLA_k4OPeyj6VWg/viewform?usp=header"
                 target="_blank"
@@ -413,6 +408,6 @@ export default function MercatiniNatalePage() {
             >
                 Prenota qui →
             </a>
-        </main >
+        </main>
     );
 }
