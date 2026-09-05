@@ -33,7 +33,7 @@ const programma: Giorno[] = [
             "La nostra prima giornata di surf, tra oceano, relax e un’esperienza dedicata al benessere.",
         attivita: [
             { orario: "08:00", testo: "Colazione", stato: "incluso" },
-            { orario: "09:00", testo: "Lezione e sessione di surf", stato: "incluso"},
+            { orario: "09:00", testo: "Lezione e sessione di surf", stato: "incluso" },
             { testo: "Pranzo in spiaggia", stato: "incluso" },
             { orario: "14:45", testo: "Rientro nella Surf House" },
             { testo: "Tempo per doccia e relax" },
@@ -69,7 +69,7 @@ const programma: Giorno[] = [
             "Lasciamo la costa per scoprire paesaggi naturali, prodotti locali e l’atmosfera autentica del souk.",
         attivita: [
             { orario: "08:00", testo: "Colazione", stato: "incluso" },
-            { orario: "09:00", testo: "Partenza per Paradise Valley", stato: "incluso"},
+            { orario: "09:00", testo: "Partenza per Paradise Valley", stato: "incluso" },
             {
                 orario: "10:00",
                 testo: "Sosta presso una cooperativa di prodotti locali",
@@ -328,6 +328,101 @@ export default function MaroccoPage() {
                                 </div>
                             </details>
                         ))}
+                    </div>
+                </div>
+            </section>
+            {/* SERVIZI INCLUSI E NON INCLUSI */}
+            <section className="px-6 py-20 md:px-12 lg:px-20">
+                <div className="mx-auto max-w-6xl">
+                    <p className="text-sm font-bold uppercase tracking-[0.3em] text-[#d96e24]">
+                        Tutto ciò che devi sapere
+                    </p>
+
+                    <h2 className="mt-5 max-w-4xl text-4xl font-bold leading-tight tracking-[-0.05em] md:text-7xl">
+                        Cosa comprende il viaggio.
+                    </h2>
+
+                    <div className="mt-12 grid gap-6 lg:grid-cols-2">
+                        {/* INCLUSO */}
+                        <div className="rounded-[32px] bg-[#ef8b43] p-7 md:p-10">
+                            <p className="text-sm font-bold uppercase tracking-[0.25em]">
+                                Servizi inclusi
+                            </p>
+
+                            <h3 className="mt-4 text-3xl font-bold">
+                                Pensiamo noi a tutto.
+                            </h3>
+
+                            <ul className="mt-8 space-y-4 leading-7">
+                                {[
+                                    "7 notti nella Surf House",
+                                    "7 colazioni",
+                                    "5 pranzi, compresi i pranzi in spiaggia",
+                                    "6 cene, compresa la cena BBQ finale",
+                                    "Lezioni e sessioni di surf",
+                                    "Tavola da surf e attrezzatura necessaria",
+                                    "Esperienza yoga",
+                                    "Visita al mercato e cooking class a Tamraght",
+                                    "Escursione a Paradise Valley",
+                                    "Visita alla cooperativa di prodotti locali",
+                                    "Visita al Souk El Had",
+                                    "Giornata di surf a Imsouane",
+                                    "Esperienza di sandboarding sulle dune",
+                                    "Escursione a Taghazout e tramonto allo Skate Park",
+                                    "Un’attività a scelta tra passeggiata a cavallo, hammam o henna experience",
+                                    "Tutti i trasferimenti previsti dal programma",
+                                    "Attività di gruppo e giochi rompighiaccio",
+                                    "Coordinatrice presente durante tutto il viaggio",
+                                ].map((servizio) => (
+                                    <li key={servizio} className="flex items-start gap-3">
+                                        <span className="mt-1 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[#402216] text-sm text-white">
+                                            ✓
+                                        </span>
+                                        <span>{servizio}</span>
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+
+                        {/* NON INCLUSO */}
+                        <div className="rounded-[32px] bg-[#402216] p-7 text-white md:p-10">
+                            <p className="text-sm font-bold uppercase tracking-[0.25em] text-[#ef8b43]">
+                                Servizi non inclusi
+                            </p>
+
+                            <h3 className="mt-4 text-3xl font-bold">
+                                Da organizzare separatamente.
+                            </h3>
+
+                            <ul className="mt-8 space-y-5 leading-7 text-white/85">
+                                {[
+                                    "Volo di andata e ritorno per il Marocco",
+                                    "Pranzo al mercato durante la giornata a Imsouane",
+                                    "Cena con musica durante la serata a Taghazout",
+                                    "Spese personali e tutto ciò che non è espressamente indicato nei servizi inclusi",
+                                    "Attività extra facoltative: passeggiata a cavallo, hammam o henna experience",
+                                ].map((servizio) => (
+                                    <li key={servizio} className="flex items-start gap-3">
+                                        <span className="mt-1 flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-white/10 text-sm text-[#ef8b43]">
+                                            ×
+                                        </span>
+                                        <span>{servizio}</span>
+                                    </li>
+                                ))}
+                            </ul>
+
+                            <div className="mt-10 rounded-[24px] border border-white/15 bg-white/5 p-6">
+                                <p className="font-bold text-[#ef8b43]">
+                                    In breve
+                                </p>
+
+                                <p className="mt-2 leading-7 text-white/70">
+                                    Una volta arrivate in Marocco, tutti i trasferimenti e
+                                    tutte le esperienze previste dal programma saranno
+                                    organizzati per il gruppo.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
