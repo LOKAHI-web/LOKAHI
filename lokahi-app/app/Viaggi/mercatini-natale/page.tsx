@@ -230,7 +230,7 @@ export default function MercatiniNatalePage() {
                     </h2>
 
                     <div className="mt-14 grid gap-7 lg:grid-cols-2">
-                        <div className="rounded-[30px] bg-white p-7 text-[#402216] md:p-10">
+                        <div className="rounded-[30px] bg-[#ef8b43] p-7 text-[#402216] md:p-10">
                             <div className="flex items-center gap-4">
                                 <span className="flex h-12 w-12 items-center justify-center rounded-full bg-[#ef8b43] text-2xl font-bold">
                                     ✓
