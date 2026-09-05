@@ -270,7 +270,13 @@ export default function Home() {
               >
                 <div
                   className="relative min-h-[230px] bg-cover bg-center sm:min-h-[300px] lg:min-h-[340px]"
-                  style={{ backgroundImage: `url('${trip.image}')` }}
+                  style={{
+                    backgroundImage: `url('${trip.image}')`,
+                    backgroundSize:
+                      trip.destination === "Mercatini di Natale" ? "108%" : "cover",
+                    backgroundRepeat: "no-repeat",
+                    backgroundPosition: "center",
+                  }}
                 >
                   <span className="absolute left-4 top-4 rounded-full bg-[#ef8b43] px-5 py-2.5 text-sm font-bold text-[#402216]">
                     {trip.status}
