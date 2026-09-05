@@ -1,7 +1,7 @@
 const trips = [
   {
     destination: "Messico",
-    dates: "25 ottobre – 3 novembre 2026",
+    dates: "25 ottobre - 3 novembre 2026",
     status: "Sold out",
     href: "https://tempodiviaggi.it/trip-tickets/2026-messico-25-ottobre/",
     description:
@@ -11,7 +11,7 @@ const trips = [
   },
   {
     destination: "Islanda",
-    dates: "22 novembre – 29 novembre 2026",
+    dates: "22 novembre - 29 novembre 2026",
     status: "Sold out",
     href: "/Viaggi/Islanda",
     description:
@@ -21,7 +21,7 @@ const trips = [
   },
   {
     destination: "Mercatini di Natale",
-    dates: "6 dicembre – 8 dicembre 2026",
+    dates: "6 dicembre - 8 dicembre 2026",
     status: "Iscrizioni aperte",
     href: "/Viaggi/mercatini-natale",
     description:
@@ -31,7 +31,7 @@ const trips = [
   },
   {
     destination: "Surf Week Fuerteventura",
-    dates: "30 dicembre 2026 – 5 gennaio 2027",
+    dates: "30 dicembre 2026 - 5 gennaio 2027",
     status: "Iscrizioni aperte",
     href: "https://booking.dreamwavesurf.com/it/product/lokahi-surf-week-fuerteventura/accommodation",
     description:
@@ -41,7 +41,7 @@ const trips = [
   },
   {
     destination: "Thailandia",
-    dates: "27 febbraio – 9 marzo 2027",
+    dates: "27 febbraio - 9 marzo 2027",
     status: "Prossimamente",
     href: "/Viaggi/Thailandia",
     description:
@@ -50,7 +50,7 @@ const trips = [
   },
   {
     destination: "Marocco",
-    dates: "28 marzo – 4 aprile 2027",
+    dates: "28 marzo - 4 aprile 2027",
     status: "Prenotabile a breve",
     href: "/Viaggi/Marocco",
     description:
