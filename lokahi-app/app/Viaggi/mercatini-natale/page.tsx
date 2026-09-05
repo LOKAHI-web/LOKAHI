@@ -405,6 +405,14 @@ export default function MercatiniNatalePage() {
                     </Link>
                 </div>
             </section>
+            <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSc-PXvJPfNgXID4ixIXP8CH6MNm1skbw2rvLA_k4OPeyj6VWg/viewform?usp=header"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="fixed bottom-5 left-1/2 z-50 flex -translate-x-1/2 items-center justify-center rounded-full bg-[#ef8b43] px-7 py-4 text-base font-bold text-[#402216] shadow-[0_12px_35px_rgba(64,34,22,0.35)] transition hover:scale-105 hover:bg-white md:bottom-7 md:left-auto md:right-7 md:translate-x-0"
+            >
+                Prenota qui →
+            </a>
         </main >
     );
 }
