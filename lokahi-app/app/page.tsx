@@ -54,7 +54,7 @@ const trips = [
     status: "Prenotabile a breve",
     href: "/Viaggi/Marocco",
     description:
-      "Pasqua in Marocco, tra oceano, natura e sapori tipici marocchini; Parti con la tua amica Queer o Etero",
+      "Pasqua in Marocco. Un viaggio dedicato alle donne queer che non se la sentono di partire sole: puoi portare con te un’amica, queer o etero.",
     image:
       "https://images.unsplash.com/photo-1489493585363-d69421e0edd3?auto=format&fit=crop&w=1400&q=85",
   },
