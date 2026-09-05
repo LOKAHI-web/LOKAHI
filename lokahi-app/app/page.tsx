@@ -41,7 +41,7 @@ const trips = [
   },
   {
     destination: "Thailandia",
-    dates: "27 febbraio - 9 marzo 2027",
+    dates: "27 febbraio – 9 marzo 2027",
     status: "Prossimamente",
     href: "/Viaggi/Thailandia",
     description:
