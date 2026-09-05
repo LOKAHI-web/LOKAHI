@@ -23,6 +23,7 @@ const programma: Giorno[] = [
             { testo: "Arrivo in Marocco" },
             { testo: "Trasferimento e sistemazione nella Surf House" },
             { testo: "Cena nella Surf House", stato: "incluso" },
+            { testo: "Giochi rompi ghiacchio" },
         ],
     },
     {
@@ -37,8 +38,7 @@ const programma: Giorno[] = [
             { orario: "14:45", testo: "Rientro nella Surf House" },
             { testo: "Tempo per doccia e relax" },
             {
-                testo: "Esperienza yoga per chi desidera partecipare",
-                stato: "facoltativo",
+                testo: "Esperienza yoga", stato: "incluso"
             },
             { testo: "Cena nella Surf House", stato: "incluso" },
         ],
@@ -57,7 +57,7 @@ const programma: Giorno[] = [
             {
                 testo:
                     "Visita al mercato e spesa insieme al cuoco, seguite da una cooking class a Tamraght",
-                stato: "facoltativo",
+                stato: "incluso",
             },
             { testo: "Cena", stato: "incluso" },
         ],
@@ -74,10 +74,13 @@ const programma: Giorno[] = [
                 orario: "10:00",
                 testo: "Sosta presso una cooperativa di prodotti locali",
             },
-            { testo: "Visita e tempo libero a Paradise Valley" },
+            {
+                testo:
+                    "Visita e tempo libero a Paradise Valley, un’oasi naturale tra montagne, palme e piscine naturali, perfetta per passeggiare, rilassarsi e scoprire il lato più autentico del Marocco.",
+            },
             { testo: "Pranzo", stato: "incluso" },
-            { orario: "14:30", testo: "Partenza da Paradise Valley" },
-            { testo: "Visita al Souk El Had" },
+            { orario: "14:30", testo: "Partenza per Souk El Had" },
+            { testo: "Visita al Souk El Had (Mercato piu grande del marocco)" },
             { orario: "18:00", testo: "Rientro nella Surf House" },
             { testo: "Cena", stato: "incluso" },
         ],
@@ -92,7 +95,11 @@ const programma: Giorno[] = [
             { orario: "09:00", testo: "Partenza dalla Surf House" },
             { testo: "Surf a Imsouane" },
             { testo: "Pranzo al mercato", stato: "non-incluso" },
-            { orario: "16:00", testo: "Esperienza tra le dune e sandboarding" },
+            {
+                orario: "16:00",
+                testo:
+                    "Sandboarding tra le dune: saliremo su una tavola simile a quella da snowboard e scivoleremo sulla sabbia, vivendo un’esperienza divertente e indimenticabile.",
+            },
             { testo: "Rientro nella Surf House" },
             { testo: "Cena", stato: "incluso" },
         ],
