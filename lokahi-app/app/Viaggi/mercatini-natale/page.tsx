@@ -232,7 +232,7 @@ export default function MercatiniNatalePage() {
                     <div className="mt-14 grid gap-7 lg:grid-cols-2">
                         <div className="rounded-[30px] bg-[#ef8b43] p-7 text-[#402216] md:p-10">
                             <div className="flex items-center gap-4">
-                                <span className="flex h-12 w-12 items-center justify-center rounded-full bg-[#ef8b43] text-2xl font-bold">
+                                <span className="flex h-12 w-12 items-center justify-center rounded-full bg-[#402216] text-xl font-bold text-white">
                                     ✓
                                 </span>
                                 <h3 className="text-3xl font-bold">Servizi inclusi</h3>
@@ -242,7 +242,7 @@ export default function MercatiniNatalePage() {
                                 {incluso.map((servizio) => (
                                     <li
                                         key={servizio}
-                                        className="flex gap-3 leading-7 text-[#6d6964]"
+                                        className="flex gap-3 leading-7 text-[#402216]"
                                     >
                                         <span className="font-bold text-[#d96e24]">•</span>
                                         <span>{servizio}</span>
@@ -265,7 +265,7 @@ export default function MercatiniNatalePage() {
                                         key={servizio}
                                         className="flex gap-3 leading-7 text-white/80"
                                     >
-                                        <span className="font-bold text-[#ef8b43]">•</span>
+                                        <span className="font-bold text-[#402216]">•</span>
                                         <span>{servizio}</span>
                                     </li>
                                 ))}
