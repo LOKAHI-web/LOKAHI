@@ -269,7 +269,7 @@ export default function Home() {
                 className="overflow-hidden rounded-[30px] bg-white shadow-[0_24px_70px_rgba(42,30,19,.14)]"
               >
                 <div
-                  className="relative min-h-[230px] bg-cover bg-center sm:min-h-[300px] lg:min-h-[340px]"
+                  className="relative min-h-[260px] bg-cover bg-center sm:min-h-[330px] lg:min-h-[380px]"
                   style={{ backgroundImage: `url('${trip.image}')` }}
                 >
                   <span className="absolute left-4 top-4 rounded-full bg-[#ef8b43] px-5 py-2.5 text-sm font-bold text-[#402216]">
