@@ -2,7 +2,7 @@ const trips = [
   {
     destination: "Messico",
     dates: "25 ottobre - 3 novembre 2026",
-    status: "Sold out",
+    status: "Ultimo posto",
     href: "/Viaggi/Messico",
     description:
       "Un viaggio nel cuore del Messico durante il Día de los Muertos, tra colori, tradizioni e celebrazioni indimenticabili.",
