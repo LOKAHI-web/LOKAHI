@@ -263,7 +263,7 @@ export default function Home() {
           </div>
 
           <div className="grid gap-6 lg:grid-cols-3">
-            {trips.map((trip) => (
+            {trips.filter((trip) => trip.destination !== "Messico").map((trip) => (
               <a
                 key={`${trip.destination}-${trip.dates}`}
                 href={trip.href}

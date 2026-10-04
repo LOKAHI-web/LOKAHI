@@ -12,7 +12,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/Viaggi/Islanda-2027",
     "/Viaggi/Marocco",
     "/Viaggi/mercatini-natale",
-    "/Viaggi/Messico",
     "/Viaggi/Puglia",
     "/Viaggi/Sardegna-camper",
     "/Viaggi/Sicilia",
