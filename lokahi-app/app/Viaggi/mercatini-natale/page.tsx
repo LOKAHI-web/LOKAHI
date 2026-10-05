@@ -244,7 +244,7 @@ export default function MercatiniNatalePage() {
                                         key={servizio}
                                         className="flex gap-3 leading-7 text-[#402216]"
                                     >
-                                       <span className="text-2xl font-bold leading-none text-[#402216]">•</span>
+                                        <span className="text-2xl font-bold leading-none text-[#402216]">•</span>
                                         <span>{servizio}</span>
                                     </li>
                                 ))}
@@ -265,7 +265,7 @@ export default function MercatiniNatalePage() {
                                         key={servizio}
                                         className="flex gap-3 leading-7 text-white/80"
                                     >
-                                       <span className="text-2xl font-bold leading-none text-[#ef8b43]">•</span>
+                                        <span className="text-2xl font-bold leading-none text-[#ef8b43]">•</span>
                                         <span>{servizio}</span>
                                     </li>
                                 ))}
@@ -363,25 +363,19 @@ export default function MercatiniNatalePage() {
                             <span>Possibilità di pagamento a rate</span>
                         </div>
 
-                        <div className="mx-auto mt-5 max-w-xl rounded-[18px] border border-[#ef8b43]/40 bg-white/10 px-4 py-3 backdrop-blur-sm">
-                            <p className="text-lg font-bold text-[#ef8b43] md:text-xl">
-                                Risparmia 90 €
+                        <div className="mx-auto mt-6 max-w-xl rounded-[18px] border border-[#ef8b43]/40 bg-white/10 px-6 py-6 text-center backdrop-blur-sm">
+                            <p className="text-sm font-bold uppercase tracking-[0.25em] text-[#ef8b43]">
+                                Sold out
                             </p>
 
-                            <p className="mt-1 text-sm leading-6 text-white/85">
-                                Prenota entro il 15 ottobre 2026 per approfittare del prezzo
-                                speciale. Dopo questa data il prezzo aumenterà.
+                            <p className="mt-3 text-lg font-bold text-white">
+                                Questo viaggio è al completo.
+                            </p>
+
+                            <p className="mt-2 text-sm leading-6 text-white/80">
+                                Continua a seguirci per scoprire le prossime partenze.
                             </p>
                         </div>
-
-                        <Link
-                            href="https://docs.google.com/forms/d/e/1FAIpQLSc-PXvJPfNgXID4ixIXP8CH6MNm1skbw2rvLA_k4OPeyj6VWg/viewform?usp=header"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="mt-6 inline-flex w-full items-center justify-center rounded-full bg-[#ef8b43] px-10 py-4 text-xl font-bold text-[#402216] shadow-[0_10px_30px_rgba(0,0,0,0.20)] transition hover:scale-105 hover:bg-white sm:w-auto"
-                        >
-                            Clicca qui per prenota e bloccare il tuo posto con soli 309 €
-                        </Link>
                     </div>
                 </div>
             </section>
