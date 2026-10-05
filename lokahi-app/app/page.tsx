@@ -22,8 +22,8 @@ const trips = [
   {
     destination: "Mercatini di Natale",
     dates: "6 dicembre - 8 dicembre 2026",
-    status: "Iscrizioni aperte",
-    href: "/Viaggi/mercatini-natale",
+    status: "Sold out",
+    href: undefined,
     description:
       "Tre giorni tra Innsbruck, Vipiteno e Levico Terme, immersi nelle luci, nei profumi e nella magia dei mercatini di Natale.",
     image:
