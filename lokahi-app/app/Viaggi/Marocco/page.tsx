@@ -105,14 +105,14 @@ const programma: Giorno[] = [
     },
     {
         data: "Giovedì 1 aprile",
-        titolo: "Ultime onde e serata finale",
+        titolo: "Serata finale BBQ",
         descrizione:
             "L’ultima giornata piena sarà dedicata al surf, alle esperienze marocchine e a una serata speciale insieme.",
         attivita: [
             { orario: "09:00", testo: "Colazione" },
             { orario: "10:00", testo: "Lezione e sessione di surf" },
             { testo: "Pranzo in spiaggia" },
-            { orario: "15:30", testo: "Fine del surf e rientro" },
+            { orario: "15:30", testo: "Rientro nella Surf House" },
             {
                 orario: "19:00",
                 testo:
@@ -120,7 +120,7 @@ const programma: Giorno[] = [
                 stato: "facoltativo",
             },
             { testo: "Cena BBQ" },
-            { testo: "Musica e serata finale insieme" }
+            { testo: "Musica e serata insieme" }
         ],
     },
     {
@@ -137,7 +137,7 @@ const programma: Giorno[] = [
             { orario: "17:00", testo: "Partenza per Taghazout" },
             { testo: "Tramonto allo Skate Park" },
             { testo: "Cena con musica", stato: "non-incluso" },
-            { testo: "Serata insieme fino a mezzanotte" },
+            { testo: "Ultima serata insieme" },
         ],
     },
     {
