@@ -68,8 +68,8 @@ const trips = [
     image: "/sardegna-camper.jpg",
   },
   {
-    destination: "Puglia",
-    dates: "Estate 2027",
+    destination: "Puglia in camper",
+    dates: "11 Luglio - 18 Luglio 2027",
     status: "Prossimamente",
     href: "/Viaggi/Puglia",
     description:
@@ -78,7 +78,7 @@ const trips = [
   },
   {
     destination: "Sicilia",
-    dates: "Estate 2027",
+    dates: "7 Agosto - 14 Agosto 2027",
     status: "Prossimamente",
     href: "/Viaggi/Sicilia",
     description:
