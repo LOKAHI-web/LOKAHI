@@ -15,7 +15,7 @@ type Giorno = {
 
 const programma: Giorno[] = [
     {
-        data: "Domenica 28 marzo",
+        data: "Sabato 27 marzo",
         titolo: "Benvenute in Marocco",
         descrizione:
             "Il viaggio comincia: arrivo, incontro con il gruppo e prima serata insieme nella nostra Surf House.",
@@ -27,7 +27,7 @@ const programma: Giorno[] = [
         ],
     },
     {
-        data: "Lunedì 29 marzo",
+        data: "Domenica 28 marzo",
         titolo: "La prima onda",
         descrizione:
             "La nostra prima giornata di surf, tra oceano, relax e un’esperienza dedicata al benessere.",
@@ -44,26 +44,8 @@ const programma: Giorno[] = [
         ],
     },
     {
-        data: "Martedì 30 marzo",
-        titolo: "Surf e sapori marocchini",
-        descrizione:
-            "Una giornata tra onde e tradizioni locali, culminata in un’esperienza di cucina marocchina.",
-        attivita: [
-            { orario: "08:00", testo: "Colazione" },
-            { orario: "09:00", testo: "Lezione e sessione di surf" },
-            { testo: "Pranzo in spiaggia" },
-            { orario: "14:45", testo: "Rientro nella Surf House" },
-            { testo: "Tempo per doccia e relax" },
-            {
-                testo:
-                    "Visita al mercato e spesa insieme al cuoco, seguite da una cooking class a Tamraght",
-            },
-            { testo: "Cena" },
-        ],
-    },
-    {
-        data: "Mercoledì 31 marzo",
-        titolo: "Paradise Valley e Souk El Had",
+        data: "Lunedì 29 marzo",
+          titolo: "Paradise Valley e Souk El Had",
         descrizione:
             "Lasciamo la costa per scoprire paesaggi naturali, prodotti locali e l’atmosfera autentica del souk.",
         attivita: [
@@ -85,7 +67,25 @@ const programma: Giorno[] = [
         ],
     },
     {
-        data: "Giovedì 1 aprile",
+        data: "Martedì 30 marzo",
+        titolo: "Surf e sapori marocchini",
+        descrizione:
+            "Una giornata tra onde e tradizioni locali, culminata in un’esperienza di cucina marocchina.",
+        attivita: [
+            { orario: "08:00", testo: "Colazione" },
+            { orario: "09:00", testo: "Lezione e sessione di surf" },
+            { testo: "Pranzo in spiaggia" },
+            { orario: "14:45", testo: "Rientro nella Surf House" },
+            { testo: "Tempo per doccia e relax" },
+            {
+                testo:
+                    "Visita al mercato e spesa insieme al cuoco, seguite da una cooking class a Tamraght",
+            },
+            { testo: "Cena" },
+        ],
+    },
+    {
+        data: "Mercoledì 31 aprile",
         titolo: "Imsouane, dune e sandboarding",
         descrizione:
             "Una giornata avventurosa dedicata al surf, ai paesaggi oceanici e alla magia delle dune.",
@@ -101,6 +101,26 @@ const programma: Giorno[] = [
             },
             { testo: "Rientro nella Surf House" },
             { testo: "Cena" },
+        ],
+    },
+    {
+        data: "Giovedì 1 aprile",
+        titolo: "Ultime onde e serata finale",
+        descrizione:
+            "L’ultima giornata piena sarà dedicata al surf, alle esperienze marocchine e a una serata speciale insieme.",
+        attivita: [
+            { orario: "09:00", testo: "Colazione" },
+            { orario: "10:00", testo: "Lezione e sessione di surf" },
+            { testo: "Pranzo in spiaggia" },
+            { orario: "15:30", testo: "Fine del surf e rientro" },
+            {
+                orario: "19:00",
+                testo:
+                    "Possibilità di scegliere un’attività extra tra passeggiata a cavallo, hammam o henna experience",
+                stato: "facoltativo",
+            },
+            { testo: "Cena BBQ" },
+            { testo: "Musica e serata finale insieme" }
         ],
     },
     {
@@ -122,26 +142,6 @@ const programma: Giorno[] = [
     },
     {
         data: "Sabato 3 aprile",
-        titolo: "Ultime onde e serata finale",
-        descrizione:
-            "L’ultima giornata piena sarà dedicata al surf, alle esperienze marocchine e a una serata speciale insieme.",
-        attivita: [
-            { orario: "09:00", testo: "Colazione" },
-            { orario: "10:00", testo: "Lezione e sessione di surf" },
-            { testo: "Pranzo in spiaggia" },
-            { orario: "15:30", testo: "Fine del surf e rientro" },
-            {
-                orario: "19:00",
-                testo:
-                    "Possibilità di scegliere un’attività extra tra passeggiata a cavallo, hammam o henna experience",
-                stato: "facoltativo",
-            },
-            { testo: "Cena BBQ" },
-            { testo: "Musica e serata finale insieme" }
-        ],
-    },
-    {
-        data: "Domenica 4 aprile",
         titolo: "Il momento dei saluti",
         descrizione:
             "Un’ultima colazione insieme prima di salutare il Marocco e portare a casa tutti i ricordi del viaggio.",
