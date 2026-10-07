@@ -105,7 +105,7 @@ const programma: Giorno[] = [
     },
     {
         data: "Giovedì 1 aprile",
-        titolo: "Serata finale BBQ",
+        titolo: "Serata BBQ",
         descrizione:
             "L’ultima giornata piena sarà dedicata al surf, alle esperienze marocchine e a una serata speciale insieme.",
         attivita: [
