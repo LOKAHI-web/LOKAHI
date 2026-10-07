@@ -50,7 +50,7 @@ const trips = [
   },
   {
     destination: "Marocco",
-    dates: "28 marzo - 4 aprile 2027",
+    dates: "27 marzo - 3 aprile 2027",
     status: "Prenotabile a breve",
     href: "/Viaggi/Marocco",
     description:
