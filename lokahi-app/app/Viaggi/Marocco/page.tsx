@@ -447,28 +447,39 @@ export default function MaroccoPage() {
                 Blocca il tuo posto →
             </a>
             {/* CHIUSURA */}
-            <section className="bg-[#402216] px-6 py-16 text-center text-white md:px-12 md:py-20">
+            <section className="bg-[#402216] px-6 pb-32 pt-16 text-center text-white md:px-12 md:pb-28 md:pt-20">
                 <div className="mx-auto max-w-3xl">
                     <p className="text-sm font-bold uppercase tracking-[0.25em] text-[#ef8b43]">
                         Il viaggio ci aspetta
                     </p>
 
                     <h2 className="mt-5 text-4xl font-bold leading-tight tracking-[-0.05em] md:text-6xl">
-                        Prenotabile a breve.
+                        Blocca il tuo posto.
                     </h2>
 
                     <p className="mx-auto mt-6 max-w-2xl leading-8 text-white/70">
-                        Il viaggio non è ancora prenotabile, ma puoi già scoprire il programma giorno per giorno. Le prenotazioni apriranno tra qualche settimana: continua a seguirci per non perdere l’apertura!
+                        Scegli la sistemazione che preferisci e compila il modulo
+                        di prenotazione cliccando sul pulsante in basso.
                     </p>
 
                     <Link
                         href="/#viaggi"
-                        className="mt-9 inline-flex rounded-full bg-[#ef8b43] px-8 py-4 text-lg font-bold text-[#402216] transition hover:scale-105 hover:bg-white"
+                        className="mt-9 inline-flex rounded-full border border-white/30 px-8 py-4 text-lg font-bold text-white transition hover:bg-white hover:text-[#402216]"
                     >
                         Scopri gli altri viaggi →
                     </Link>
                 </div>
             </section>
+
+            {/* PULSANTE FISSO CHE SEGUE LO SCORRIMENTO */}
+            <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdZBnupo594iAPu8DS9_Ydzt_nIOV-yLgqZwFIMPUUy4Lxb0A/viewform?usp=header"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="fixed bottom-5 left-1/2 z-50 -translate-x-1/2 whitespace-nowrap rounded-full bg-[#ef8b43] px-7 py-4 text-base font-bold text-[#402216] shadow-2xl transition hover:scale-105 hover:bg-white md:px-10 md:text-lg"
+            >
+                Blocca il tuo posto →
+            </a>
         </main>
     );
 }
