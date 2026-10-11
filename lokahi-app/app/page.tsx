@@ -33,21 +33,21 @@ const trips = [
     destination: "Surf Week Fuerteventura",
     dates: "30 dicembre 2026 - 5 gennaio 2027",
     status: "Sold out",
-    href:  "/Viaggi/Fuerteventura",
+    href: "/Viaggi/Fuerteventura",
     description:
       "Un Capodanno tra oceano, surf, surf skate, dry surf, trekking, natura e nuove amicizie queer.",
     image:
       "https://images.unsplash.com/photo-1502680390469-be75c86b636f?auto=format&fit=crop&w=1400&q=85",
   },
- {
+  {
     destination: "Surf Week Fuerteventura",
     dates: "6 gennaio 2027 - 12 gennaio 2027",
     status: "Iscrizioni aperte",
-    href:  "https://booking.dreamwavesurf.com/it/product/lokahi-surf-week-fuerteventura-1/accommodation",
+    href: "https://booking.dreamwavesurf.com/it/product/lokahi-surf-week-fuerteventura-1/accommodation",
     description:
       "Un Capodanno tra oceano, surf, surf skate, dry surf, trekking, natura e nuove amicizie queer.",
     image:
-    "https://images.unsplash.com/photo-1739971204193-5f63bef120a9?auto=format&fit=crop&crop=faces&w=1400&h=1100&q=85",
+      "https://4action.s3.eu-west-3.amazonaws.com/2019/06/OLAIAN-SURF-girl-spiaggia-640x427.jpg",
   },
 
   {
