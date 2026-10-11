@@ -39,6 +39,17 @@ const trips = [
     image:
       "https://images.unsplash.com/photo-1502680390469-be75c86b636f?auto=format&fit=crop&w=1400&q=85",
   },
+ {
+    destination: "Surf Week Fuerteventura",
+    dates: "6 gennaio 2027 - 12 gennaio 2027",
+    status: "Iscrizioni aperte",
+    href:  "https://booking.dreamwavesurf.com/it/product/lokahi-surf-week-fuerteventura-1/accommodation",
+    description:
+      "Un Capodanno tra oceano, surf, surf skate, dry surf, trekking, natura e nuove amicizie queer.",
+    image:
+      "https://images.unsplash.com/photo-1502680390469-be75c86b636f?auto=format&fit=crop&w=1400&q=85",
+  },
+
   {
     destination: "Thailandia",
     dates: "27 febbraio - 10 marzo 2027",
