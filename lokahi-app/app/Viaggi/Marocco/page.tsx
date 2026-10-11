@@ -429,24 +429,26 @@ export default function MaroccoPage() {
                             </p>
 
                             <p className="mt-5 text-2xl text-[#9a8a82] line-through">
-                                1.099 €
+                                1.299 €
                             </p>
 
                             <p className="mt-1 text-5xl font-black text-[#d96e24]">
                                 999 €
                             </p>
-
+                            <div className="mt-4 inline-flex rounded-full bg-[#dff5e7] px-5 py-2 text-sm font-bold text-[#168447]">
+                                Risparmi 300 €
+                            </div>
                             <p className="mt-2 text-[#6d6964]">
                                 a persona
                             </p>
 
                             <div className="mt-7 rounded-2xl bg-[#fff2e7] px-5 py-4">
                                 <p className="font-bold text-[#402216]">
-                                    Prenota entro il 15 novembre 2026
+                                    Prezzo di lancio valido fino al 15 novembre 2026
                                 </p>
 
                                 <p className="mt-1 text-sm leading-6 text-[#796359]">
-                                    Dal 16 novembre il prezzo sarà di 1.099 € a persona.
+                                    Prenota entro questa data per approfittare dell'offerta
                                 </p>
                             </div>
                         </div>
@@ -462,24 +464,25 @@ export default function MaroccoPage() {
                             </p>
 
                             <p className="mt-5 text-2xl text-[#9a8a82] line-through">
-                                1.299 €
+                                1.399 €
                             </p>
 
                             <p className="mt-1 text-5xl font-black text-[#d96e24]">
                                 1.099 €
                             </p>
-
+                            <div className="mt-4 inline-flex rounded-full bg-[#dff5e7] px-5 py-2 text-sm font-bold text-[#168447]">
+                                Risparmi 300 €
+                            </div>
                             <p className="mt-2 text-[#6d6964]">
                                 a persona
                             </p>
 
                             <div className="mt-7 rounded-2xl bg-[#fff2e7] px-5 py-4">
                                 <p className="font-bold text-[#402216]">
-                                    Prenota entro il 15 novembre 2026
+                                    Prezzo di lancio valido fino al 15 novembre 2026
                                 </p>
-
                                 <p className="mt-1 text-sm leading-6 text-[#796359]">
-                                    Dal 16 novembre il prezzo sarà di 1.299 € a persona.
+                                    Prenota entro questa data per approfittare dell'offerta
                                 </p>
                             </div>
                         </div>
