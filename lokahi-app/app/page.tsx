@@ -47,7 +47,7 @@ const trips = [
     description:
       "Un Capodanno tra oceano, surf, surf skate, dry surf, trekking, natura e nuove amicizie queer.",
     image:
-      "https://images.unsplash.com/photo-1502680390469-be75c86b636f?auto=format&fit=crop&w=1400&q=85",
+    "https://images.unsplash.com/photo-1739971204193-5f63bef120a9?auto=format&fit=crop&w=1400&q=85",
   },
 
   {

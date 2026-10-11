@@ -8,7 +8,7 @@ export default function FuerteventuraPage() {
                     className="absolute inset-0 h-full w-full bg-cover bg-center"
                     style={{
                         backgroundImage:
-                            "url('https://images.unsplash.com/photo-1502680390469-be75c86b636f?auto=format&fit=crop&w=2000&q=85')",
+                            "url('https://images.unsplash.com/photo-1739971204193-5f63bef120a9?auto=format&fit=crop&w=2000&q=85')",
                     }}
                 />
 
