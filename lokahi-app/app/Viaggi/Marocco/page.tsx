@@ -45,7 +45,7 @@ const programma: Giorno[] = [
     },
     {
         data: "Lunedì 29 marzo",
-          titolo: "Paradise Valley e Souk El Had",
+        titolo: "Paradise Valley e Souk El Had",
         descrizione:
             "Lasciamo la costa per scoprire paesaggi naturali, prodotti locali e l’atmosfera autentica del souk.",
         attivita: [
@@ -406,7 +406,46 @@ export default function MaroccoPage() {
                     </div>
                 </div>
             </section>
+            {/* PREZZI */}
+            <section className="bg-[#fffaf5] px-6 py-20 text-[#402216] md:px-12">
+                <div className="mx-auto max-w-4xl text-center">
+                    <p className="text-sm font-bold uppercase tracking-[0.3em] text-[#d96e24]">
+                        Quote di partecipazione
+                    </p>
 
+                    <h2 className="mt-5 text-4xl font-bold md:text-6xl">
+                        Scegli la tua sistemazione
+                    </h2>
+
+                    <div className="mt-10 grid gap-5 md:grid-cols-2">
+                        <div className="rounded-3xl bg-white p-8 shadow-lg">
+                            <p className="text-lg font-semibold">Camera quadrupla</p>
+                            <p className="mt-3 text-5xl font-black">999 €</p>
+                            <p className="mt-2 text-[#6d6964]">a persona</p>
+                        </div>
+
+                        <div className="rounded-3xl bg-white p-8 shadow-lg">
+                            <p className="text-lg font-semibold">Camera doppia</p>
+                            <p className="mt-3 text-5xl font-black">1.099 €</p>
+                            <p className="mt-2 text-[#6d6964]">a persona</p>
+                        </div>
+                    </div>
+
+                    <p className="mt-10 text-lg font-semibold">
+                        Blocca il tuo posto cliccando sul pulsante in basso.
+                    </p>
+                </div>
+            </section>
+
+            {/* PULSANTE FISSO CHE SEGUE LO SCORRIMENTO */}
+            <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdZBnupo594iAPu8DS9_Ydzt_nIOV-yLgqZwFIMPUUy4Lxb0A/viewform?usp=header"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="fixed bottom-5 left-1/2 z-50 -translate-x-1/2 whitespace-nowrap rounded-full bg-[#ef8b43] px-7 py-4 text-base font-bold text-[#402216] shadow-2xl transition hover:scale-105 hover:bg-[#402216] hover:text-white md:px-10 md:text-lg"
+            >
+                Blocca il tuo posto →
+            </a>
             {/* CHIUSURA */}
             <section className="bg-[#402216] px-6 py-16 text-center text-white md:px-12 md:py-20">
                 <div className="mx-auto max-w-3xl">
