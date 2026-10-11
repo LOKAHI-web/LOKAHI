@@ -417,20 +417,73 @@ export default function MaroccoPage() {
                         Scegli la tua sistemazione
                     </h2>
 
-                    <div className="mt-10 grid gap-5 md:grid-cols-2">
-                        <div className="rounded-3xl bg-white p-8 shadow-lg">
-                            <p className="text-lg font-semibold">Camera quadrupla</p>
-                            <p className="mt-3 text-5xl font-black">999 €</p>
-                            <p className="mt-2 text-[#6d6964]">a persona</p>
+                    <div className="mt-10 grid gap-6 md:grid-cols-2">
+                        {/* CAMERA QUADRUPLA */}
+                        <div className="relative rounded-[30px] border border-[#ead8c8] bg-white p-8 shadow-lg">
+                            <div className="absolute right-5 top-5 rounded-full bg-[#ef8b43] px-4 py-2 text-xs font-bold uppercase tracking-wider text-[#402216]">
+                                Prezzo lancio
+                            </div>
+
+                            <p className="pt-12 text-xl font-bold">
+                                Camera quadrupla
+                            </p>
+
+                            <p className="mt-5 text-2xl text-[#9a8a82] line-through">
+                                1.099 €
+                            </p>
+
+                            <p className="mt-1 text-5xl font-black text-[#d96e24]">
+                                999 €
+                            </p>
+
+                            <p className="mt-2 text-[#6d6964]">
+                                a persona
+                            </p>
+
+                            <div className="mt-7 rounded-2xl bg-[#fff2e7] px-5 py-4">
+                                <p className="font-bold text-[#402216]">
+                                    Prenota entro il 15 novembre 2026
+                                </p>
+
+                                <p className="mt-1 text-sm leading-6 text-[#796359]">
+                                    Dal 16 novembre il prezzo sarà di 1.099 € a persona.
+                                </p>
+                            </div>
                         </div>
 
-                        <div className="rounded-3xl bg-white p-8 shadow-lg">
-                            <p className="text-lg font-semibold">Camera doppia</p>
-                            <p className="mt-3 text-5xl font-black">1.099 €</p>
-                            <p className="mt-2 text-[#6d6964]">a persona</p>
+                        {/* CAMERA DOPPIA */}
+                        <div className="relative rounded-[30px] border border-[#ead8c8] bg-white p-8 shadow-lg">
+                            <div className="absolute right-5 top-5 rounded-full bg-[#ef8b43] px-4 py-2 text-xs font-bold uppercase tracking-wider text-[#402216]">
+                                Prezzo lancio
+                            </div>
+
+                            <p className="pt-12 text-xl font-bold">
+                                Camera doppia
+                            </p>
+
+                            <p className="mt-5 text-2xl text-[#9a8a82] line-through">
+                                1.299 €
+                            </p>
+
+                            <p className="mt-1 text-5xl font-black text-[#d96e24]">
+                                1.099 €
+                            </p>
+
+                            <p className="mt-2 text-[#6d6964]">
+                                a persona
+                            </p>
+
+                            <div className="mt-7 rounded-2xl bg-[#fff2e7] px-5 py-4">
+                                <p className="font-bold text-[#402216]">
+                                    Prenota entro il 15 novembre 2026
+                                </p>
+
+                                <p className="mt-1 text-sm leading-6 text-[#796359]">
+                                    Dal 16 novembre il prezzo sarà di 1.299 € a persona.
+                                </p>
+                            </div>
                         </div>
                     </div>
-
                     <p className="mt-10 text-lg font-semibold">
                         Blocca il tuo posto cliccando sul pulsante in basso.
                     </p>
