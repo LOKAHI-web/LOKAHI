@@ -322,7 +322,7 @@ export default function Home() {
                   trip.destination === "Mercatini di Natale" ||
                   (
                     trip.destination === "Surf Week Fuerteventura" &&
-                    trip.dates === "30 dicembre 2026 – 5 gennaio 2027"
+                    trip.status === "Sold out"
                   )
                 ) && (
                     <a
