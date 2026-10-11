@@ -275,46 +275,70 @@ export default function Home() {
 
           <div className="grid gap-6 lg:grid-cols-3">
             {trips.filter((trip) => trip.destination !== "Messico").map((trip) => (
-              <a
+              <div
                 key={`${trip.destination}-${trip.dates}`}
-                href={trip.href}
-                className="group block overflow-hidden rounded-[30px] bg-white shadow-[0_24px_70px_rgba(42,30,19,.14)] transition duration-300 hover:-translate-y-2 hover:shadow-[0_30px_90px_rgba(42,30,19,.22)]"
+                className="relative"
               >
-                <div
-                  className="relative min-h-[230px] bg-cover bg-center transition duration-700 sm:min-h-[300px] lg:min-h-[340px]"
-                  style={{
-                    backgroundImage: `url('${trip.image}')`,
-                    backgroundSize:
-                      trip.destination === "Mercatini di Natale"
-                        ? "108%"
-                        : "cover",
-                    backgroundRepeat: "no-repeat",
-                    backgroundPosition: "center",
-                  }}
+                <a
+                  href={trip.href}
+                  className="group block overflow-hidden rounded-[30px] bg-white shadow-[0_24px_70px_rgba(42,30,19,.14)] transition duration-500 hover:-translate-y-2"
                 >
-                  <span className="absolute left-4 top-4 rounded-full bg-[#ef8b43] px-5 py-2.5 text-sm font-bold text-[#402216]">
-                    {trip.status}
-                  </span>
-                </div>
+                  <div
+                    className="relative min-h-[230px] bg-cover bg-center transition duration-700 sm:min-h-[300px] lg:min-h-[340px]"
+                    style={{
+                      backgroundImage: `url('${trip.image}')`,
+                      backgroundSize:
+                        trip.destination === "Mercatini di Natale"
+                          ? "108%"
+                          : "cover",
+                      backgroundRepeat: "no-repeat",
+                      backgroundPosition: "center",
+                    }}
+                  >
+                    <span className="absolute left-4 top-4 rounded-full bg-[#ef8b43] px-5 py-2.5 text-sm font-bold text-[#402216]">
+                      {trip.status}
+                    </span>
+                  </div>
 
-                <div className="p-5 sm:p-7">
-                  <p className="text-sm text-[#77716b]">
-                    {trip.dates}
-                  </p>
+                  <div className="p-5 sm:p-7">
+                    <p className="text-sm text-[#77716b]">
+                      {trip.dates}
+                    </p>
 
-                  <h3 className="mt-3 text-3xl font-bold tracking-[-0.04em]">
-                    {trip.destination}
-                  </h3>
+                    <h3 className="mt-3 text-3xl font-bold tracking-[-0.04em]">
+                      {trip.destination}
+                    </h3>
 
-                  <p className="mt-3 min-h-20 leading-7 text-[#6d6964]">
-                    {trip.description}
-                  </p>
+                    <p className="mt-3 min-h-20 leading-7 text-[#6d6964]">
+                      {trip.description}
+                    </p>
 
-                  <span className="mt-6 inline-block font-bold text-[#d96e24]">
-                    Scopri il viaggio →
-                  </span>
-                </div>
-              </a>
+                    <span className="mt-6 inline-block font-bold text-[#d96e24]">
+                      Scopri il viaggio →
+                    </span>
+                  </div>
+                </a>
+                {(
+                  trip.destination === "Mercatini di Natale" ||
+                  (
+                    trip.destination === "Surf Week Fuerteventura" &&
+                    trip.dates === "30 dicembre 2026 – 5 gennaio 2027"
+                  )
+                ) && (
+                    <a
+                      href={
+                        trip.destination === "Mercatini di Natale"
+                          ? "https://docs.google.com/forms/d/e/1FAIpQLSexJM5f7kKVvcRwE2p-svMQUFLNNO8LiYNSiaMkxGmz-SxDvg/viewform?usp=header"
+                          : "https://docs.google.com/forms/d/e/1FAIpQLSd-wUIbJMkpikHz5C3EYJAWxxksDIVONgUrlS7A9ZjZ3KuzXw/viewform?usp=publish-editor"
+                      }
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="absolute right-4 top-4 z-20 rounded-full border-2 border-[#ef8b43] bg-white px-4 py-2 text-sm font-bold text-[#402216] shadow-lg transition hover:scale-105 hover:bg-[#402216] hover:text-white"
+                    >
+                      Lista d’attesa
+                    </a>
+                  )}
+              </div>
             ))}
           </div>
         </div>
