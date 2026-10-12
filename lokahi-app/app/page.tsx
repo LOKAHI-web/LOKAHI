@@ -62,7 +62,7 @@ const trips = [
   {
     destination: "Marocco",
     dates: "27 marzo - 3 aprile 2027",
-    status: "Prenotabile a breve",
+    status: "Iscrizioni aperte",
     href: "/Viaggi/Marocco",
     description:
       "Pasqua in Marocco. Un viaggio dedicato alle donne queer che non se la sentono di partire sole: puoi portare con te un’amica, queer o etero.",
