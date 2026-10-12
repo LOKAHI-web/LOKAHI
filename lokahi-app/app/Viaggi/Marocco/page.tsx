@@ -207,7 +207,7 @@ export default function MaroccoPage() {
                     </Link>
 
                     <p className="text-sm font-bold uppercase tracking-[0.3em] text-[#ffc078] md:text-base">
-                        28 marzo – 4 aprile 2027
+                        27 marzo – 3 aprile 2027
                     </p>
 
                     <h1 className="mt-5 max-w-4xl text-6xl font-bold leading-[0.88] tracking-[-0.06em] sm:text-7xl md:text-8xl lg:text-9xl">
