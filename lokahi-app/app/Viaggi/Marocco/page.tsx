@@ -359,14 +359,14 @@ export default function MaroccoPage() {
                                 {[
                                     "7 notti nella Surf House",
                                     "7 colazioni, 5 pranzi e 6 cene",
-                                    "6 lezioni e sessioni di surf con tutta l’attrezzatura necessaria",
+                                    "5 lezioni e sessioni di surf con tutta l’attrezzatura necessaria",
                                     "Esperienza yoga",
                                     "Visita al mercato e cooking class a Tamraght",
                                     "Escursione a Paradise Valley",
                                     "Visita alla cooperativa di prodotti locali e al Souk El Had",
                                     "Esperienza di sandboarding sulle dune",
                                     "Tutti i trasferimenti previsti dal programma",
-                                    "Coordinatrici presente durante tutto il viaggio",
+                                    "Coordinatrici presenti durante tutto il viaggio",
                                 ].map((servizio) => (
                                     <li key={servizio} className="flex items-start gap-3">
                                         <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-[#402216]" />
