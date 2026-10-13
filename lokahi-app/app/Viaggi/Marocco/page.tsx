@@ -444,7 +444,7 @@ export default function MaroccoPage() {
 
                             <div className="mt-7 rounded-2xl bg-[#fff2e7] px-5 py-4">
                                 <p className="font-bold text-[#402216]">
-                                    Prezzo di lancio valido fino al 15 novembre 2026
+                                    Prezzo di lancio valido fino al 23 ottobre 2026
                                 </p>
 
                                 <p className="mt-1 text-sm leading-6 text-[#796359]">
@@ -479,7 +479,7 @@ export default function MaroccoPage() {
 
                             <div className="mt-7 rounded-2xl bg-[#fff2e7] px-5 py-4">
                                 <p className="font-bold text-[#402216]">
-                                    Prezzo di lancio valido fino al 15 novembre 2026
+                                    Prezzo di lancio valido fino al 23 ottobre 2026
                                 </p>
                                 <p className="mt-1 text-sm leading-6 text-[#796359]">
                                     Prenota entro questa data per approfittare dell'offerta
