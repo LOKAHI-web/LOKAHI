@@ -252,7 +252,7 @@ export default function MaroccoPage() {
             <section className="bg-[#fffaf5] px-6 py-20 text-[#402216] md:px-12">
                 <div className="mx-auto max-w-6xl">
                     <p className="text-sm font-bold uppercase tracking-[0.3em] text-[#d96e24]">
-                        Voli inclusi
+                        Voli da acquistare in autonomia
                     </p>
 
                     <h2 className="mt-5 text-4xl font-bold md:text-6xl">
@@ -326,8 +326,10 @@ export default function MaroccoPage() {
                     </div>
 
                     <p className="mt-6 rounded-2xl bg-[#fff2e7] px-6 py-4 text-sm leading-6 text-[#6d6964]">
-                        Gli orari dei voli possono subire variazioni da parte della compagnia
-                        aerea. Per il ritorno, il check-in dovrà essere effettuato in aeroporto.
+                        Noi abbiamo già acquistato questi voli e saranno quelli di riferimento per
+                        viaggiare insieme al gruppo. Il biglietto aereo non è incluso nella quota e
+                        deve essere acquistato autonomamente da ogni partecipante. Gli orari
+                        potrebbero subire variazioni da parte della compagnia aerea.
                     </p>
                 </div>
             </section>
