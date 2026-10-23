@@ -248,7 +248,89 @@ export default function MaroccoPage() {
                     </div>
                 </div>
             </section>
+            {/* VOLI */}
+            <section className="bg-[#fffaf5] px-6 py-20 text-[#402216] md:px-12">
+                <div className="mx-auto max-w-6xl">
+                    <p className="text-sm font-bold uppercase tracking-[0.3em] text-[#d96e24]">
+                        Voli inclusi
+                    </p>
 
+                    <h2 className="mt-5 text-4xl font-bold md:text-6xl">
+                        Partiamo insieme da Milano
+                    </h2>
+
+                    <div className="mt-10 grid gap-6 md:grid-cols-2">
+                        <div className="rounded-3xl bg-white p-8 shadow-lg">
+                            <span className="inline-flex rounded-full bg-[#ef8b43] px-4 py-2 text-sm font-bold">
+                                Andata
+                            </span>
+
+                            <p className="mt-6 text-lg font-semibold">
+                                Sabato 27 marzo 2027
+                            </p>
+
+                            <div className="mt-4 flex items-center justify-between gap-4">
+                                <div>
+                                    <p className="text-4xl font-bold">05:30</p>
+                                    <p className="mt-2 text-[#6d6964]">
+                                        Milano Malpensa
+                                    </p>
+                                    <p className="text-sm text-[#6d6964]">Terminal 1</p>
+                                </div>
+
+                                <span className="text-3xl">✈️</span>
+
+                                <div className="text-right">
+                                    <p className="text-4xl font-bold">08:10</p>
+                                    <p className="mt-2 text-[#6d6964]">Agadir</p>
+                                </div>
+                            </div>
+
+                            <p className="mt-6 border-t border-[#402216]/10 pt-5 text-sm text-[#6d6964]">
+                                Volo Wizz Air W46487 · Durata 3 ore e 40 minuti
+                            </p>
+                        </div>
+
+                        <div className="rounded-3xl bg-white p-8 shadow-lg">
+                            <span className="inline-flex rounded-full bg-[#ef8b43] px-4 py-2 text-sm font-bold">
+                                Ritorno
+                            </span>
+
+                            <p className="mt-6 text-lg font-semibold">
+                                Sabato 3 aprile 2027
+                            </p>
+
+                            <div className="mt-4 flex items-center justify-between gap-4">
+                                <div>
+                                    <p className="text-4xl font-bold">19:55</p>
+                                    <p className="mt-2 text-[#6d6964]">Agadir</p>
+                                </div>
+
+                                <span className="text-3xl">✈️</span>
+
+                                <div className="text-right">
+                                    <p className="text-4xl font-bold">01:25</p>
+                                    <p className="mt-2 text-[#6d6964]">
+                                        Milano Malpensa
+                                    </p>
+                                    <p className="text-sm text-[#6d6964]">
+                                        Domenica 4 aprile
+                                    </p>
+                                </div>
+                            </div>
+
+                            <p className="mt-6 border-t border-[#402216]/10 pt-5 text-sm text-[#6d6964]">
+                                Volo Wizz Air W46438 · Durata 3 ore e 30 minuti
+                            </p>
+                        </div>
+                    </div>
+
+                    <p className="mt-6 rounded-2xl bg-[#fff2e7] px-6 py-4 text-sm leading-6 text-[#6d6964]">
+                        Gli orari dei voli possono subire variazioni da parte della compagnia
+                        aerea. Per il ritorno, il check-in dovrà essere effettuato in aeroporto.
+                    </p>
+                </div>
+            </section>
             {/* PROGRAMMA */}
             <section className="px-6 pb-24 md:px-12 lg:px-20">
                 <div className="mx-auto max-w-5xl">
