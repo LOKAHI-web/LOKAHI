@@ -526,7 +526,7 @@ export default function MaroccoPage() {
                                 a persona
                             </p>
 
-                            <div className="mt-7 rounded-2xl bg-[#fff2e7] px-5 py-4">
+                            {/* <div className="mt-7 rounded-2xl bg-[#fff2e7] px-5 py-4">
                                 <p className="font-bold text-[#402216]">
                                     Prezzo di lancio valido fino al 23 ottobre 2026
                                 </p>
@@ -534,7 +534,7 @@ export default function MaroccoPage() {
                                 <p className="mt-1 text-sm leading-6 text-[#796359]">
                                     Prenota entro questa data per approfittare dell'offerta
                                 </p>
-                            </div>
+                            </div> */}
                         </div>
 
                         {/* CAMERA DOPPIA */}
@@ -561,16 +561,16 @@ export default function MaroccoPage() {
                                 a persona
                             </p>
 
-                            <div className="mt-7 rounded-2xl bg-[#fff2e7] px-5 py-4">
+                           {/* <div className="mt-7 rounded-2xl bg-[#fff2e7] px-5 py-4">
                                 <p className="font-bold text-[#402216]">
                                     Prezzo di lancio valido fino al 23 ottobre 2026
                                 </p>
                                 <p className="mt-1 text-sm leading-6 text-[#796359]">
                                     Prenota entro questa data per approfittare dell'offerta
                                 </p>
-                            </div>
-                        </div>
-                    </div>
+                        </div> */}
+                        </div> 
+                    </div> 
                     <p className="mt-10 text-lg font-semibold">
                         Blocca il tuo posto cliccando sul pulsante in basso.
                     </p>
