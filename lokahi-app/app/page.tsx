@@ -108,9 +108,9 @@ const trips = [
   },
   {
     destination: "Islanda",
-    dates: "Novembre 2027",
-    status: "Prossimamente",
-    href: "/Viaggi/Islanda-2027",
+    dates: "21 novembre - 28 novembre 2027",
+    status: "iscrizione aperte",
+    href: "https://tempodiviaggi.it/trip-tickets/2027-islanda-21-novembre/",
     description:
       "Alla ricerca dell’aurora boreale, tra paesaggi immensi, natura selvaggia e meraviglie di ghiaccio.",
     image: "/islanda-2027.jpg",
