@@ -517,10 +517,10 @@ export default function MaroccoPage() {
                             </p>
 
                             <p className="mt-1 text-5xl font-black text-[#d96e24]">
-                                999 €
+                                1099 €
                             </p>
                             <div className="mt-4 inline-flex rounded-full bg-[#dff5e7] px-5 py-2 text-sm font-bold text-[#168447]">
-                                Risparmi 300 €
+                                Risparmi 200 €
                             </div>
                             <p className="mt-2 text-[#6d6964]">
                                 a persona
@@ -552,10 +552,10 @@ export default function MaroccoPage() {
                             </p>
 
                             <p className="mt-1 text-5xl font-black text-[#d96e24]">
-                                1.099 €
+                                1.199 €
                             </p>
                             <div className="mt-4 inline-flex rounded-full bg-[#dff5e7] px-5 py-2 text-sm font-bold text-[#168447]">
-                                Risparmi 300 €
+                                Risparmi 200 €
                             </div>
                             <p className="mt-2 text-[#6d6964]">
                                 a persona
