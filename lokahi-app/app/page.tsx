@@ -118,7 +118,7 @@ const trips = [
   {
     destination: "Crociera Over 40",
     dates: "2027",
-    status: "Prossimamente",
+    status: "12 giugno - 19 giugno 2027",
     href: "/Viaggi/Crociera-over-40",
     description:
       "Una crociera sui Fiordi Norvegesi dedicata alle donne queer dai 40 anni in su.",
