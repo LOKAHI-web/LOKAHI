@@ -69,6 +69,15 @@ const trips = [
     image:
       "https://images.unsplash.com/photo-1489493585363-d69421e0edd3?auto=format&fit=crop&w=1400&q=85",
   },
+   {
+    destination: "Crociera Over 35",
+    dates: "12 giugno - 19 giugno 2027",
+    status: "Prossimamente",
+    href: "https://tempodiviaggi.it/trip-tickets/norvegia-fiordi-in-crociera-12-giugno/",
+    description:
+      "Una crociera sui Fiordi Norvegesi dedicata alle donne queer dai 40 anni in su.",
+    image: "/fiordi.jpg",
+  },
   {
     destination: "Sardegna in camper",
     dates: "Luglio 2027",
@@ -98,7 +107,7 @@ const trips = [
   },
   {
     destination: "Giappone",
-    dates: "Fine ottobre 2027",
+    dates: "24 ottobre - 4 novembre 2027",
     status: "Prossimamente",
     href: "https://tempodiviaggi.it/trip-tickets/2027-giappone-24-ottobre/",
     description:
@@ -114,15 +123,6 @@ const trips = [
     description:
       "Alla ricerca dell’aurora boreale, tra paesaggi immensi, natura selvaggia e meraviglie di ghiaccio.",
     image: "/islanda-2027.jpg",
-  },
-  {
-    destination: "Crociera Over 35",
-    dates: "12 giugno - 19 giugno 2027",
-    status: "Prossimamente",
-    href: "https://tempodiviaggi.it/trip-tickets/norvegia-fiordi-in-crociera-12-giugno/",
-    description:
-      "Una crociera sui Fiordi Norvegesi dedicata alle donne queer dai 40 anni in su.",
-    image: "/fiordi.jpg",
   },
 ];
 
