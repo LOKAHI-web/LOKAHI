@@ -100,7 +100,7 @@ const trips = [
     destination: "Giappone",
     dates: "Fine ottobre 2027",
     status: "Prossimamente",
-    href: "/Viaggi/Giappone",
+    href: "https://tempodiviaggi.it/trip-tickets/2027-giappone-24-ottobre/",
     description:
       "Tradizioni, città sorprendenti, colori d’autunno e un viaggio di gruppo indimenticabile.",
     image:
