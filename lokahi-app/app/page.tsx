@@ -119,7 +119,7 @@ const trips = [
     destination: "Crociera Over 40",
     dates: "12 giugno - 19 giugno 2027",
     status: "Prossimamente",
-    href: "/Viaggi/Crociera-over-40",
+    href: "https://tempodiviaggi.it/trip-tickets/norvegia-fiordi-in-crociera-12-giugno/",
     description:
       "Una crociera sui Fiordi Norvegesi dedicata alle donne queer dai 40 anni in su.",
     image: "/fiordi.jpg",
