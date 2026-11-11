@@ -116,7 +116,7 @@ const trips = [
     image: "/islanda-2027.jpg",
   },
   {
-    destination: "Crociera Over 40",
+    destination: "Crociera Over 35",
     dates: "12 giugno - 19 giugno 2027",
     status: "Prossimamente",
     href: "https://tempodiviaggi.it/trip-tickets/norvegia-fiordi-in-crociera-12-giugno/",
