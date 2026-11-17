@@ -494,7 +494,7 @@ export default function MaroccoPage() {
             <section className="bg-[#fffaf5] px-6 py-20 text-[#402216] md:px-12">
                 <div className="mx-auto max-w-4xl text-center">
                     <p className="text-sm font-bold uppercase tracking-[0.3em] text-[#d96e24]">
-                        Quote di partecipazione
+                        Quota di partecipazione
                     </p>
 
                     <h2 className="mt-5 text-4xl font-bold md:text-6xl">
@@ -502,40 +502,6 @@ export default function MaroccoPage() {
                     </h2>
 
                     <div className="mt-10 grid gap-6 md:grid-cols-2">
-                        {/* CAMERA QUADRUPLA */}
-                        <div className="relative rounded-[30px] border border-[#ead8c8] bg-white p-8 shadow-lg">
-                            <div className="absolute right-5 top-5 rounded-full bg-[#ef8b43] px-4 py-2 text-xs font-bold uppercase tracking-wider text-[#402216]">
-                                Prezzo lancio
-                            </div>
-
-                            <p className="pt-12 text-xl font-bold">
-                                Camera quadrupla
-                            </p>
-
-                            <p className="mt-5 text-2xl text-[#9a8a82] line-through">
-                                1.299 €
-                            </p>
-
-                            <p className="mt-1 text-5xl font-black text-[#d96e24]">
-                                1099 €
-                            </p>
-                            <div className="mt-4 inline-flex rounded-full bg-[#dff5e7] px-5 py-2 text-sm font-bold text-[#168447]">
-                                Risparmi 200 €
-                            </div>
-                            <p className="mt-2 text-[#6d6964]">
-                                a persona
-                            </p>
-
-                            {/* <div className="mt-7 rounded-2xl bg-[#fff2e7] px-5 py-4">
-                                <p className="font-bold text-[#402216]">
-                                    Prezzo di lancio valido fino al 23 ottobre 2026
-                                </p>
-
-                                <p className="mt-1 text-sm leading-6 text-[#796359]">
-                                    Prenota entro questa data per approfittare dell'offerta
-                                </p>
-                            </div> */}
-                        </div>
 
                         {/* CAMERA DOPPIA */}
                         <div className="relative rounded-[30px] border border-[#ead8c8] bg-white p-8 shadow-lg">
