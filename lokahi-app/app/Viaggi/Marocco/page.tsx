@@ -259,7 +259,7 @@ export default function MaroccoPage() {
                         Partiamo insieme da Milano
                     </h2>
 
-                    <div className="mx-auto mt-10 max-w-xl">
+                    <div className="mt-10 grid gap-6 md:grid-cols-2">
                         <div className="rounded-3xl bg-white p-8 shadow-lg">
                             <span className="inline-flex rounded-full bg-[#ef8b43] px-4 py-2 text-sm font-bold">
                                 Andata
@@ -499,10 +499,10 @@ export default function MaroccoPage() {
                     <h2 className="mt-5 text-4xl font-bold md:text-6xl">
                         Quota di partecipazione                    </h2>
 
-                    <div className="mt-10 grid gap-6 md:grid-cols-2">
+                    <div className="mt-10 flex justify-center">
 
                         {/* CAMERA DOPPIA */}
-                        <div className="relative rounded-[30px] border border-[#ead8c8] bg-white p-8 shadow-lg">
+                        <div className="relative w-full max-w-xl rounded-[30px] border border-[#ead8c8] bg-white p-8 shadow-lg">
                             <div className="absolute right-5 top-5 rounded-full bg-[#ef8b43] px-4 py-2 text-xs font-bold uppercase tracking-wider text-[#402216]">
                                 Prezzo lancio
                             </div>
