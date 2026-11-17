@@ -259,7 +259,7 @@ export default function MaroccoPage() {
                         Partiamo insieme da Milano
                     </h2>
 
-                    <div className="mt-10 grid gap-6 md:grid-cols-2">
+                    <div className="mx-auto mt-10 max-w-xl">
                         <div className="rounded-3xl bg-white p-8 shadow-lg">
                             <span className="inline-flex rounded-full bg-[#ef8b43] px-4 py-2 text-sm font-bold">
                                 Andata
@@ -494,12 +494,10 @@ export default function MaroccoPage() {
             <section className="bg-[#fffaf5] px-6 py-20 text-[#402216] md:px-12">
                 <div className="mx-auto max-w-4xl text-center">
                     <p className="text-sm font-bold uppercase tracking-[0.3em] text-[#d96e24]">
-                        Quota di partecipazione
-                    </p>
+                        Marocco 2027                    </p>
 
                     <h2 className="mt-5 text-4xl font-bold md:text-6xl">
-                        Scegli la tua sistemazione
-                    </h2>
+                        Quota di partecipazione                    </h2>
 
                     <div className="mt-10 grid gap-6 md:grid-cols-2">
 
@@ -527,7 +525,7 @@ export default function MaroccoPage() {
                                 a persona
                             </p>
 
-                           {/* <div className="mt-7 rounded-2xl bg-[#fff2e7] px-5 py-4">
+                            {/* <div className="mt-7 rounded-2xl bg-[#fff2e7] px-5 py-4">
                                 <p className="font-bold text-[#402216]">
                                     Prezzo di lancio valido fino al 23 ottobre 2026
                                 </p>
@@ -535,8 +533,8 @@ export default function MaroccoPage() {
                                     Prenota entro questa data per approfittare dell'offerta
                                 </p>
                         </div> */}
-                        </div> 
-                    </div> 
+                        </div>
+                    </div>
                     <p className="mt-10 text-lg font-semibold">
                         Blocca il tuo posto cliccando sul pulsante in basso.
                     </p>
