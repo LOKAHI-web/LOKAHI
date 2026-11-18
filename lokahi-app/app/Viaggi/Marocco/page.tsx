@@ -504,23 +504,15 @@ export default function MaroccoPage() {
                         {/* CAMERA DOPPIA */}
                         <div className="relative w-full max-w-xl rounded-[30px] border border-[#ead8c8] bg-white p-8 shadow-lg">
                             <div className="absolute right-5 top-5 rounded-full bg-[#ef8b43] px-4 py-2 text-xs font-bold uppercase tracking-wider text-[#402216]">
-                                Prezzo lancio
+                                Prezzo
                             </div>
 
                             <p className="pt-12 text-xl font-bold">
                                 Camera doppia
                             </p>
-
-                            <p className="mt-5 text-2xl text-[#9a8a82] line-through">
+                            <p className="mt-1 text-5xl font-black text-[#d96e24]">
                                 1.399 €
                             </p>
-
-                            <p className="mt-1 text-5xl font-black text-[#d96e24]">
-                                1.199 €
-                            </p>
-                            <div className="mt-4 inline-flex rounded-full bg-[#dff5e7] px-5 py-2 text-sm font-bold text-[#168447]">
-                                Risparmi 200 €
-                            </div>
                             <p className="mt-2 text-[#6d6964]">
                                 a persona
                             </p>
