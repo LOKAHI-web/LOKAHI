@@ -152,7 +152,6 @@ const values = [
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#fffaf5] text-[#402216]">
-
       <header className="fixed left-1/2 top-4 z-50 flex w-[calc(100%-24px)] max-w-6xl -translate-x-1/2 items-center justify-between rounded-full border border-white/20 bg-black/35 px-5 py-3 text-white shadow-xl backdrop-blur-xl">
         <a
           href="#home"
