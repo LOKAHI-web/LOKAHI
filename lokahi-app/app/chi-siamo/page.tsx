@@ -46,12 +46,21 @@ export default function ChiSiamo() {
                         LOKΛHI
                     </Link>
 
-                    <Link
-                        href="/#contatti"
-                        className="rounded-full bg-[#ef8b43] px-5 py-3 text-sm font-bold"
-                    >
-                        Contattaci
-                    </Link>
+                    <div className="flex items-center gap-2 md:gap-3">
+                        <Link
+                            href="/coordinatrici"
+                            className="rounded-full border border-[#402216]/20 px-4 py-3 text-xs font-bold transition hover:bg-[#402216] hover:text-white md:px-5 md:text-sm"
+                        >
+                            Le coordinatrici
+                        </Link>
+
+                        <Link
+                            href="/#contatti"
+                            className="rounded-full bg-[#ef8b43] px-4 py-3 text-xs font-bold transition hover:bg-[#402216] hover:text-white md:px-5 md:text-sm"
+                        >
+                            Contattaci
+                        </Link>
+                    </div>
                 </div>
             </header>
 

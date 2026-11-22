@@ -69,7 +69,7 @@ const trips = [
     image:
       "https://images.unsplash.com/photo-1489493585363-d69421e0edd3?auto=format&fit=crop&w=1400&q=85",
   },
-   {
+  {
     destination: "Crociera Over 35",
     dates: "12 giugno - 19 giugno 2027",
     status: "Iscrizioni aperte",
@@ -171,6 +171,12 @@ export default function Home() {
           <a className="transition hover:text-orange-300" href="/chi-siamo">
             Chi siamo
           </a>
+          <a
+            className="transition hover:text-orange-300"
+            href="/coordinatrici"
+          >
+            Coordinatrici
+          </a>
           <a className="transition hover:text-orange-300" href="#faq">
             FAQ
           </a>
@@ -195,7 +201,12 @@ export default function Home() {
             <a className="rounded-xl px-4 py-3 hover:bg-white/10" href="#esperienza">
               L’esperienza
             </a>
-
+            <a
+              className="rounded-xl px-4 py-3 hover:bg-white/10"
+              href="/coordinatrici"
+            >
+              Coordinatrici
+            </a>
             <a className="rounded-xl px-4 py-3 hover:bg-white/10" href="/chi-siamo">
               Chi siamo
             </a>
@@ -533,6 +544,7 @@ export default function Home() {
         <div className="flex flex-wrap gap-6 md:justify-end">
           <a href="#viaggi">Viaggi</a>
           <a href="/chi-siamo">Chi siamo</a>
+          <a href="/coordinatrici">Coordinatrici</a>
           <a href="#faq">FAQ</a>
           <a href="#contatti">Contatti</a>
         </div>
