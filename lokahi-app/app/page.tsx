@@ -54,7 +54,7 @@ const trips = [
     destination: "Thailandia",
     dates: "27 febbraio - 10 marzo 2027",
     status: "Sold out",
-    href: "https://tempodiviaggi.it/trip-tickets/2027-thailandia-27-febbraio/",
+    href: "/Viaggi/Thailandia",
     description:
       "Un viaggio tra isole tropicali, templi, natura, sapori locali e nuove amicizie queer.",
     image: "/thailandia.jpg",
