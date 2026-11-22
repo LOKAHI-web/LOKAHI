@@ -53,7 +53,7 @@ const trips = [
   {
     destination: "Thailandia",
     dates: "27 febbraio - 10 marzo 2027",
-    status: "Iscrizioni aperte",
+    status: "Sold out",
     href: "https://tempodiviaggi.it/trip-tickets/2027-thailandia-27-febbraio/",
     description:
       "Un viaggio tra isole tropicali, templi, natura, sapori locali e nuove amicizie queer.",
@@ -72,7 +72,7 @@ const trips = [
    {
     destination: "Crociera Over 35",
     dates: "12 giugno - 19 giugno 2027",
-    status: "Prossimamente",
+    status: "Iscrizioni aperte",
     href: "https://tempodiviaggi.it/trip-tickets/norvegia-fiordi-in-crociera-12-giugno/",
     description:
       "Una crociera sui Fiordi Norvegesi dedicata alle donne queer dai 40 anni in su.",
