@@ -259,8 +259,8 @@ export default function Home() {
               href="/chi-siamo"
               className="rounded-full border border-white/40 px-7 py-4 text-center font-semibold text-white transition hover:bg-white hover:text-black"
             >
-              Conosci LOKΛHI
-            </a>
+              La storia di LOKAHI           
+              </a>
           </div>
         </div>
       </section>
