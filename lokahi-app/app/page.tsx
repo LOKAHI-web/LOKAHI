@@ -259,8 +259,8 @@ export default function Home() {
               href="/chi-siamo"
               className="rounded-full border border-white/40 px-7 py-4 text-center font-semibold text-white transition hover:bg-white hover:text-black"
             >
-              La storia di LOKAHI           
-              </a>
+              La storia di LOKAHI
+            </a>
           </div>
         </div>
       </section>
@@ -509,7 +509,92 @@ export default function Home() {
           ))}
         </div>
       </section>
+      <section className="bg-[#fffaf5] px-6 py-24 text-[#402216] md:px-12 lg:px-20 lg:py-32">
+        <div className="mx-auto max-w-7xl">
+          <p className="text-sm font-bold uppercase tracking-[0.3em] text-[#d96e24]">
+            Per chi sono
+          </p>
 
+          <h2 className="mt-5 max-w-4xl text-5xl font-bold leading-[0.95] tracking-[-0.05em] md:text-7xl">
+            Per chi sono pensati i viaggi LOKAHI.
+          </h2>
+
+          <p className="mt-7 text-lg text-[#6d6964] md:text-xl">
+            Se ti riconosci in una di queste storie, sei nel posto giusto.
+          </p>
+
+          <div className="mt-14 grid gap-7 md:grid-cols-3">
+            <article className="overflow-hidden rounded-[30px] bg-white p-4 shadow-[0_24px_70px_rgba(42,30,19,0.12)]">
+              <img
+                src="/per-chi-inizia.jpg"
+                alt="Viaggi di gruppo LOKAHI"
+                className="h-80 w-full rounded-[24px] object-cover"
+              />
+
+              <div className="px-2 pb-5 pt-7">
+                <span className="inline-flex rounded-full bg-[#ffe1cc] px-4 py-2 text-xs font-bold uppercase tracking-[0.18em]">
+                  Per chi inizia
+                </span>
+
+                <h3 className="mt-6 text-3xl font-bold tracking-[-0.04em]">
+                  Ti stai ancora scoprendo
+                </h3>
+
+                <p className="mt-4 leading-7 text-[#6d6964]">
+                  Stai iniziando a conoscerti davvero e desideri farlo in
+                  uno spazio sicuro, libero e senza giudizio.
+                </p>
+              </div>
+            </article>
+
+            <article className="overflow-hidden rounded-[30px] bg-white p-4 shadow-[0_24px_70px_rgba(42,30,19,0.12)]">
+              <img
+                src="/per-chi-cerca-amicizie.jpg"
+                alt="Nuove amicizie durante un viaggio LOKAHI"
+                className="h-80 w-full rounded-[24px] object-cover"
+              />
+
+              <div className="px-2 pb-5 pt-7">
+                <span className="inline-flex rounded-full bg-[#ffe1cc] px-4 py-2 text-xs font-bold uppercase tracking-[0.18em]">
+                  Per chi cerca amiche
+                </span>
+
+                <h3 className="mt-6 text-3xl font-bold tracking-[-0.04em]">
+                  Cerchi amicizie queer
+                </h3>
+
+                <p className="mt-4 leading-7 text-[#6d6964]">
+                  Desideri conoscere persone con cui sentirti compresa,
+                  condividere esperienze e creare legami autentici.
+                </p>
+              </div>
+            </article>
+
+            <article className="overflow-hidden rounded-[30px] bg-white p-4 shadow-[0_24px_70px_rgba(42,30,19,0.12)]">
+              <img
+                src="/per-chi-ricomincia.jpg"
+                alt="Ricominciare con un viaggio LOKAHI"
+                className="h-80 w-full rounded-[24px] object-cover"
+              />
+
+              <div className="px-2 pb-5 pt-7">
+                <span className="inline-flex rounded-full bg-[#ffe1cc] px-4 py-2 text-xs font-bold uppercase tracking-[0.18em]">
+                  Per chi ricomincia
+                </span>
+
+                <h3 className="mt-6 text-3xl font-bold tracking-[-0.04em]">
+                  Hai voglia di ricominciare
+                </h3>
+
+                <p className="mt-4 leading-7 text-[#6d6964]">
+                  Hai attraversato un cambiamento e senti il bisogno di
+                  ripartire, respirare e dedicare finalmente del tempo a te.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
       <section
         id="contatti"
         className="m-3 flex flex-col items-start justify-between gap-10 rounded-[34px] bg-[#ef8b43] px-7 py-20 md:m-6 md:px-14 lg:flex-row lg:items-end lg:px-20 lg:py-24"
