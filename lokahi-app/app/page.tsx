@@ -512,11 +512,11 @@ export default function Home() {
       <section className="bg-[#fffaf5] px-6 py-24 text-[#402216] md:px-12 lg:px-20 lg:py-32">
         <div className="mx-auto max-w-7xl">
           <p className="text-sm font-bold uppercase tracking-[0.3em] text-[#d96e24]">
-            Per chi sono
+            Perchè partire con LOKAHI
           </p>
 
           <h2 className="mt-5 max-w-4xl text-5xl font-bold leading-[0.95] tracking-[-0.05em] md:text-7xl">
-            Per chi sono pensati i viaggi LOKAHI.
+            Il biglietto lo fai per te. I ricordi li fai insieme a noi
           </h2>
 
           <p className="mt-7 text-lg text-[#6d6964] md:text-xl">
@@ -533,16 +533,19 @@ export default function Home() {
 
               <div className="px-2 pb-5 pt-7">
                 <span className="inline-flex rounded-full bg-[#ffe1cc] px-4 py-2 text-xs font-bold uppercase tracking-[0.18em]">
-                  Per chi inizia
+                  PARTIRE DA SOLA
                 </span>
 
                 <h3 className="mt-6 text-3xl font-bold tracking-[-0.04em]">
-                  Ti stai ancora scoprendo
+                  È da un po’ che voglio partire. Quasi quasi stavolta prenoto
                 </h3>
 
                 <p className="mt-4 leading-7 text-[#6d6964]">
-                  Stai iniziando a conoscerti davvero e desideri farlo in
-                  uno spazio sicuro, libero e senza giudizio.
+                  Hai salvato quel viaggio e ogni tanto torni a guardarlo. 
+                  Ti immagini già lì, poi chiudi la pagina perché partire da sola ti mette un po’ di paura. 
+                  Anche le altre arriveranno senza conoscere nessuna. 
+                  E magari, già alla prima cena, ti ritrovi a ridere con una ragazza che fino a quella mattina era una sconosciuta
+                  E pensi: "Sono proprio contenta di essere partita".
                 </p>
               </div>
             </article>
@@ -556,16 +559,16 @@ export default function Home() {
 
               <div className="px-2 pb-5 pt-7">
                 <span className="inline-flex rounded-full bg-[#ffe1cc] px-4 py-2 text-xs font-bold uppercase tracking-[0.18em]">
-                  Per chi cerca amiche
+                  NUOVE AMICIZIE               
                 </span>
 
                 <h3 className="mt-6 text-3xl font-bold tracking-[-0.04em]">
-                  Cerchi amicizie queer
+                  Da "piacere" a "ci vediamo al prossimo viaggio?""
                 </h3>
 
                 <p className="mt-4 leading-7 text-[#6d6964]">
-                  Desideri conoscere persone con cui sentirti compresa,
-                  condividere esperienze e creare legami autentici.
+                  Una chiacchierata in macchina, una cena che si allunga, una risata che nessun’altra capirebbe. 
+                  A volte un’amicizia comincia durante il viaggio e continua anche quando si torna a casa.
                 </p>
               </div>
             </article>
@@ -579,16 +582,17 @@ export default function Home() {
 
               <div className="px-2 pb-5 pt-7">
                 <span className="inline-flex rounded-full bg-[#ffe1cc] px-4 py-2 text-xs font-bold uppercase tracking-[0.18em]">
-                  Per chi ricomincia
+                  TEMPO PER TE
                 </span>
 
                 <h3 className="mt-6 text-3xl font-bold tracking-[-0.04em]">
-                  Hai voglia di ricominciare
+                  Qualche giorno fuori dalla routine e dal tuo spazio sicuro 
                 </h3>
 
                 <p className="mt-4 leading-7 text-[#6d6964]">
-                  Hai attraversato un cambiamento e senti il bisogno di
-                  ripartire, respirare e dedicare finalmente del tempo a te.
+                  Magari hai appena vissuto un cambiamento, o semplicemente hai voglia di cambiare aria. 
+                  Scegli una meta che ti incuriosisce e regalati qualche giorno da passare come piace a te.
+                  Ma sopratutto metitti in gioco e affronta le tue paure 
                 </p>
               </div>
             </article>
