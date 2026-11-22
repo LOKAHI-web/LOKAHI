@@ -58,7 +58,7 @@ export default function ChiSiamo() {
             <section className="px-6 pb-24 pt-20 md:px-12 lg:px-20 lg:pb-32 lg:pt-28">
                 <div className="mx-auto max-w-7xl">
                     <p className="mb-5 text-xs font-bold uppercase tracking-[0.2em] text-[#d96e24]">
-                        La nostra storia
+                        La mia storia
                     </p>
 
                     <h1 className="max-w-5xl text-6xl font-bold leading-[0.92] tracking-[-0.06em] md:text-8xl lg:text-[105px]">
